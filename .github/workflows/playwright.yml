@@ -50,8 +50,8 @@ jobs:
         retention-days: 30
 
     - name: Deploy Allure report to GitHub Pages
-    uses: peaceiris/actions-gh-pages@v4
-    with:
-      personal_token: ${{ secrets.GH_PAGES_PAT }}
-      publish_dir: allure-report
-      publish_branch: gh-pages
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        personal_token: ${{ secrets.GH_PAGES_PAT }}
+        publish_dir: allure-report
+        publish_branch: gh-pages
