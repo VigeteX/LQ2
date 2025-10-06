@@ -1,4 +1,4 @@
-name: Playwright Tests
+name: Playwright Tests (Allure)
 
 on:
   push:
@@ -27,15 +27,11 @@ jobs:
       run: npx playwright install --with-deps
 
     - name: Copy previous Allure history
-      rrun: |
-        git fetch origin gh-pages || true
+      run: |
+        git fetch origin gh-pages || echo "No gh-pages yet"
         mkdir -p allure-results
-        if git show-ref --verify --quiet refs/remotes/origin/gh-pages; then
-          git checkout origin/gh-pages -- allure-history || true
-          cp -r allure-history allure-results/history || true
-        else
-          echo "No gh-pages branch found. Skipping history copy."
-        fi
+        git checkout origin/gh-pages -- allure-history || echo "No previous report found"
+        cp -r allure-history allure-results/history || echo "No history to copy"
 
     - name: Run Playwright tests with Allure reporter
       run: npx playwright test --reporter=line,allure-playwright
@@ -54,8 +50,8 @@ jobs:
         retention-days: 30
 
     - name: Deploy Allure report to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v4
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: allure-report
-        publish_branch: gh-pages
+    uses: peaceiris/actions-gh-pages@v4
+    with:
+      personal_token: ${{ secrets.GH_PAGES_PAT }}
+      publish_dir: allure-report
+      publish_branch: gh-pages
