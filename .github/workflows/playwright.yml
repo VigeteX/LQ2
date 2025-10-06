@@ -27,11 +27,15 @@ jobs:
       run: npx playwright install --with-deps
 
     - name: Copy previous Allure history
-      run: |
-        git fetch origin gh-pages || echo "No gh-pages yet"
+      rrun: |
+        git fetch origin gh-pages || true
         mkdir -p allure-results
-        git checkout origin/gh-pages -- allure-history || echo "No previous report found"
-        cp -r allure-history allure-results/history || echo "No history to copy"
+        if git show-ref --verify --quiet refs/remotes/origin/gh-pages; then
+          git checkout origin/gh-pages -- allure-history || true
+          cp -r allure-history allure-results/history || true
+        else
+          echo "No gh-pages branch found. Skipping history copy."
+        fi
 
     - name: Run Playwright tests with Allure reporter
       run: npx playwright test --reporter=line,allure-playwright
