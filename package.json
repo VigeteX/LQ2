@@ -1,0 +1,20 @@
+{
+  "name": "2",
+  "version": "1.0.0",
+  "description": "Task 2: Playwright framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report",
+    "test:debug": "npx playwright test --debug",
+    "test:generate": "npx playwright codegen"
+  },
+  "keywords": ["Boba"],
+  "author": "Volodymyr Pelenko",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.55.1",
+    "@types/node": "^24.6.0"
+  }
+}
