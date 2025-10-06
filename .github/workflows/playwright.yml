@@ -1,4 +1,4 @@
-name: Playwright Tests (Allure)
+name: Playwright Tests
 
 on:
   push:
