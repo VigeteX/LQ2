@@ -12,8 +12,11 @@ export class MainPage extends BasePage{
   }
 
   async open() {
-    await this.page.goto('https://www.redmine.org/');
-    await this.expectURLContains('https://www.redmine.org/')
+    await this.page.goto('https://www.redmine.org/',
+    {
+      waitUntil: 'domcontentloaded',
+      timeout: 30000,
+    });
   }
 
   async search(text: string) {

@@ -18,7 +18,11 @@ export default class SearchPage extends BasePage{
   }
 
   async open() {
-    await this.page.goto('https://www.redmine.org/projects/redmine/search?scope=subprojects');
+    await this.page.goto('https://www.redmine.org/projects/redmine/search?scope=subprojects',
+    {
+      waitUntil: 'domcontentloaded',
+      timeout: 30000,
+    });
   }
   
   async fillSearchField(query: string) {
