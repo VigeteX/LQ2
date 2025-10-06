@@ -2,18 +2,18 @@ import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
   testDir: './tests',
-  //globalTimeout: 60 * 60 * 1000,
-  //timeout: 2 * 60 * 1000,
-  //expect: { timeout: 5_000},
   
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 1 : 0,
   workers: process.env.CI ? 5 : 5,
-  //reporter: [['html', {open: 'never', outputFolder:'../reports/html'}], ['github']],//'html',//[['html', {open: 'never', outputFolder:'../reports/html'}], [process.env.CI ? 'dot' : ' list'], ['github']]
-  reporter: 'list', //'line' или 'list' или 'dot'
+  reporter:
+  [
+    ['line'],
+    ['allure-playwright']
+  ],
   use: {
-    //baseURL: 'https://www.redmine.org/',
+    
     baseURL: process.env.BASE_URL,
     screenshot: process.env.CI ? 'only-on-failure' : 'on',
     video: process.env.CI ? 'retain-on-failure' : 'on',
