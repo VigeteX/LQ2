@@ -29,7 +29,7 @@ export default class SearchPage extends BasePage{
   async toggleCheckboxes(checkboxes:Record<string, boolean>){
       for (const [name, shouldBeChecked] of Object.entries(checkboxes)) {
         const checkbox = this.page.locator(`input[type="checkbox"][name="${name}"]`);
-        await checkbox.waitFor({ state: 'attached', timeout: 120000 });
+        await checkbox.waitFor({ state: 'visible', timeout: 120000 });
         const count = await checkbox.count();
         if (count === 0) throw new Error(`Checkbox "${name}" not found`);
 
@@ -46,7 +46,7 @@ export default class SearchPage extends BasePage{
 
     for (const [name, shouldBeChecked] of Object.entries(expected)) {
       const checkbox = this.page.locator(`input[type="checkbox"][name="${name}"]`);
-      await checkbox.waitFor({ state: 'attached', timeout: 120000 });
+      await checkbox.waitFor({ state: 'visible', timeout: 120000 });
       const count = await checkbox.count();
       if (count === 0) throw new Error(`Checkbox "${name}" not found`);
 
