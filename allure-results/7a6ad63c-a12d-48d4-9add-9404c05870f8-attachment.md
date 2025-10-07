@@ -1,0 +1,565 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - list:
+          - listitem [ref=e7]:
+            - link "Sign in" [ref=e8] [cursor=pointer]:
+              - /url: /login
+          - listitem [ref=e9]:
+            - link "Register" [ref=e10] [cursor=pointer]:
+              - /url: /account/register
+      - list:
+        - listitem [ref=e11]:
+          - link "Home" [ref=e12] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e13]:
+          - link "Projects" [ref=e14] [cursor=pointer]:
+            - /url: /projects
+        - listitem [ref=e15]:
+          - link "Help" [ref=e16] [cursor=pointer]:
+            - /url: https://www.redmine.org/guide
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - generic [ref=e20]:
+            - link "Search" [ref=e21] [cursor=pointer]:
+              - /url: /projects/redmine/search?scope=subprojects
+            - text: ":"
+          - textbox "Search:" [ref=e22]: Redmine
+        - generic [ref=e24] [cursor=pointer]: Redmine
+      - heading "Redmine" [level=1] [ref=e25]:
+        - generic [ref=e26]: Redmine
+      - list [ref=e28]:
+        - listitem [ref=e29]:
+          - link "Overview" [ref=e30] [cursor=pointer]:
+            - /url: /projects/redmine
+        - listitem [ref=e31]:
+          - link "Download" [ref=e32] [cursor=pointer]:
+            - /url: /projects/redmine/wiki/Download
+        - listitem [ref=e33]:
+          - link "Activity" [ref=e34] [cursor=pointer]:
+            - /url: /projects/redmine/activity
+        - listitem [ref=e35]:
+          - link "Roadmap" [ref=e36] [cursor=pointer]:
+            - /url: /projects/redmine/roadmap
+        - listitem [ref=e37]:
+          - link "Issues" [ref=e38] [cursor=pointer]:
+            - /url: /projects/redmine/issues
+        - listitem [ref=e39]:
+          - link "News" [ref=e40] [cursor=pointer]:
+            - /url: /projects/redmine/news
+        - listitem [ref=e41]:
+          - link "Wiki" [ref=e42] [cursor=pointer]:
+            - /url: /projects/redmine/wiki
+        - listitem [ref=e43]:
+          - link "Forums" [ref=e44] [cursor=pointer]:
+            - /url: /projects/redmine/boards
+        - listitem [ref=e45]:
+          - link "Repository" [ref=e46] [cursor=pointer]:
+            - /url: /projects/redmine/repository
+    - generic [ref=e47]:
+      - insertion [ref=e49]:
+        - iframe [ref=e51]:
+          - generic [active] [ref=f1e1]:
+            - generic [ref=f1e7]:
+              - generic [ref=f1e8]:
+                - link "Купуй цього вівторка" [ref=f1e10] [cursor=pointer]:
+                  - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=C2QLWHxXlaJCEGvD_78EPht7WyALouMutggG585CnhxXb2R4QASDBl_QHYKXGoobkIqABkvDSiwPIAQGpAr5JfVNu_lk-qAMByAPLBKoEtwNP0INRwXZze-t8AkTMejxYuUefSxpL8DIkafEqihPG7QQM72fTy4ZsQDJDxRcjtSAJZ-y4Gt0KWCMkpM1yVpF2qnnPujG3lSmn_FUaFTa9MY1GFopFx8BuR-QIBwJVlkO2i7taAJ_I4_x42h21lVymDSawPBh-DrDxfzV20aJyGGeomWmXLxsFe9U0GxFdHNnzFiVwUbsTraAoOuRrMPRK6xs0-JvDrEPEXoD96GGJQRybDTz4r8_xeNGwxAEkpTPT451GB8uQayrR1BHkb_sFd4PVRciFEZGszoxgAmZFng5nvId4mYfA2o_7JhUlcMhohgWBoq6S9BBgOX6tQ40YqCB0cRnw5KHFQtZJACzVB9PRz0T-zaqSdooNJRKGcO3F11qQQ5KZEPvIxaoseMQBlrG2y8H-SWa8jcG0eI5Ta19o0Z_Og9KSLDFbp75Rx5ExKM2feYNhXIbPzUg1oy6bQHMzkcdBgdoys9pgddCfRv7il0JN5Nkyb8z2R1uuCSeDiTIoQpvEDB6qwghgsYtCM41--QONM22flmlwa4P6_dNPt_2OPWXL8f3BsfkUsPXRGJkS8d0FwASs3tHUngWIBciZouxRgAfZsJeIBagHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHAdIIKQiAYRABGJ8BMgKKAjoNgECAwICAgICogAKoA0i9_cE6WKD7uayYkpADsQnQxwW-_B-pHoAKAZgLAcgLAaoNAlVByA0B6g0TCL3S5KyYkpADFfD_OwIdBq8VKfANAogOBdgTA9AVAcoWAgoA-BYBgBcBshcCGAG6FwI4AbIYCRICuU8YASIBANAYAegYAcIZAggB&ae=1&gclid=EAIaIQobChMI0I-7rJiSkAMV8P87Ah0GrxUpEAEYASAAEgIW7PD_BwE&num=1&cid=CAQSnwEAwksa0RaziyJX4ERq97Eh69cgJUmPatuAQuTpGAeAtBmPuHklObAu2aXLyLjxopdiqX2Hvqp-oOJD7Ny5efiIQvzY2tF6e6gKIrJtrt9J_6CdUJpUjo19z032xoLQAgC_NyYpQxRU-BPSsLPMbvOj9oEcpxiTNFGCC-6p_ihKH2y5G00_6RV2ptcgGDofaP-ASVfyR4ijUg8VoM_3qkcYAQ&sig=AOD64_1UQmZvEAsr_bxQhB2I0xc4-OqjwA&client=ca-pub-0447284344517370&rf=1&nb=0&adurl=https://www.brocard.ua/ua/promotion/tsini-dnya%3Fgad_source%3D5%26gad_campaignid%3D21970324680%26gclid%3DEAIaIQobChMI0I-7rJiSkAMV8P87Ah0GrxUpEAEYASAAEgIW7PD_BwE
+                  - text: Купуй
+                  - text: цього
+                  - text: вівторка
+                - 'link "Хітовий вівторок: замов омріяні б’юті- товари за ціною дня на сайті та у застосунку BROCARD" [ref=f1e12] [cursor=pointer]':
+                  - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=C2QLWHxXlaJCEGvD_78EPht7WyALouMutggG585CnhxXb2R4QASDBl_QHYKXGoobkIqABkvDSiwPIAQGpAr5JfVNu_lk-qAMByAPLBKoEtwNP0INRwXZze-t8AkTMejxYuUefSxpL8DIkafEqihPG7QQM72fTy4ZsQDJDxRcjtSAJZ-y4Gt0KWCMkpM1yVpF2qnnPujG3lSmn_FUaFTa9MY1GFopFx8BuR-QIBwJVlkO2i7taAJ_I4_x42h21lVymDSawPBh-DrDxfzV20aJyGGeomWmXLxsFe9U0GxFdHNnzFiVwUbsTraAoOuRrMPRK6xs0-JvDrEPEXoD96GGJQRybDTz4r8_xeNGwxAEkpTPT451GB8uQayrR1BHkb_sFd4PVRciFEZGszoxgAmZFng5nvId4mYfA2o_7JhUlcMhohgWBoq6S9BBgOX6tQ40YqCB0cRnw5KHFQtZJACzVB9PRz0T-zaqSdooNJRKGcO3F11qQQ5KZEPvIxaoseMQBlrG2y8H-SWa8jcG0eI5Ta19o0Z_Og9KSLDFbp75Rx5ExKM2feYNhXIbPzUg1oy6bQHMzkcdBgdoys9pgddCfRv7il0JN5Nkyb8z2R1uuCSeDiTIoQpvEDB6qwghgsYtCM41--QONM22flmlwa4P6_dNPt_2OPWXL8f3BsfkUsPXRGJkS8d0FwASs3tHUngWIBciZouxRgAfZsJeIBagHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHAdIIKQiAYRABGJ8BMgKKAjoNgECAwICAgICogAKoA0i9_cE6WKD7uayYkpADsQnQxwW-_B-pHoAKAZgLAcgLAaoNAlVByA0B6g0TCL3S5KyYkpADFfD_OwIdBq8VKfANAogOBdgTA9AVAcoWAgoA-BYBgBcBshcCGAG6FwI4AbIYCRICuU8YASIBANAYAegYAcIZAggB&ae=1&gclid=EAIaIQobChMI0I-7rJiSkAMV8P87Ah0GrxUpEAEYASAAEgIW7PD_BwE&num=1&cid=CAQSnwEAwksa0RaziyJX4ERq97Eh69cgJUmPatuAQuTpGAeAtBmPuHklObAu2aXLyLjxopdiqX2Hvqp-oOJD7Ny5efiIQvzY2tF6e6gKIrJtrt9J_6CdUJpUjo19z032xoLQAgC_NyYpQxRU-BPSsLPMbvOj9oEcpxiTNFGCC-6p_ihKH2y5G00_6RV2ptcgGDofaP-ASVfyR4ijUg8VoM_3qkcYAQ&sig=AOD64_1UQmZvEAsr_bxQhB2I0xc4-OqjwA&client=ca-pub-0447284344517370&rf=1&nb=7&adurl=https://www.brocard.ua/ua/promotion/tsini-dnya%3Fgad_source%3D5%26gad_campaignid%3D21970324680%26gclid%3DEAIaIQobChMI0I-7rJiSkAMV8P87Ah0GrxUpEAEYASAAEgIW7PD_BwE
+                  - text: Хітовий
+                  - text: "вівторок: замов"
+                  - text: омріяні б’юті-
+                  - text: товари за
+                  - text: ціною дня на
+                  - text: сайті та у
+                  - text: застосунку
+                  - text: BROCARD
+                - link "BROCARD" [ref=f1e14] [cursor=pointer]:
+                  - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=C2QLWHxXlaJCEGvD_78EPht7WyALouMutggG585CnhxXb2R4QASDBl_QHYKXGoobkIqABkvDSiwPIAQGpAr5JfVNu_lk-qAMByAPLBKoEtwNP0INRwXZze-t8AkTMejxYuUefSxpL8DIkafEqihPG7QQM72fTy4ZsQDJDxRcjtSAJZ-y4Gt0KWCMkpM1yVpF2qnnPujG3lSmn_FUaFTa9MY1GFopFx8BuR-QIBwJVlkO2i7taAJ_I4_x42h21lVymDSawPBh-DrDxfzV20aJyGGeomWmXLxsFe9U0GxFdHNnzFiVwUbsTraAoOuRrMPRK6xs0-JvDrEPEXoD96GGJQRybDTz4r8_xeNGwxAEkpTPT451GB8uQayrR1BHkb_sFd4PVRciFEZGszoxgAmZFng5nvId4mYfA2o_7JhUlcMhohgWBoq6S9BBgOX6tQ40YqCB0cRnw5KHFQtZJACzVB9PRz0T-zaqSdooNJRKGcO3F11qQQ5KZEPvIxaoseMQBlrG2y8H-SWa8jcG0eI5Ta19o0Z_Og9KSLDFbp75Rx5ExKM2feYNhXIbPzUg1oy6bQHMzkcdBgdoys9pgddCfRv7il0JN5Nkyb8z2R1uuCSeDiTIoQpvEDB6qwghgsYtCM41--QONM22flmlwa4P6_dNPt_2OPWXL8f3BsfkUsPXRGJkS8d0FwASs3tHUngWIBciZouxRgAfZsJeIBagHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHAdIIKQiAYRABGJ8BMgKKAjoNgECAwICAgICogAKoA0i9_cE6WKD7uayYkpADsQnQxwW-_B-pHoAKAZgLAcgLAaoNAlVByA0B6g0TCL3S5KyYkpADFfD_OwIdBq8VKfANAogOBdgTA9AVAcoWAgoA-BYBgBcBshcCGAG6FwI4AbIYCRICuU8YASIBANAYAegYAcIZAggB&ae=1&gclid=EAIaIQobChMI0I-7rJiSkAMV8P87Ah0GrxUpEAEYASAAEgIW7PD_BwE&num=1&cid=CAQSnwEAwksa0RaziyJX4ERq97Eh69cgJUmPatuAQuTpGAeAtBmPuHklObAu2aXLyLjxopdiqX2Hvqp-oOJD7Ny5efiIQvzY2tF6e6gKIrJtrt9J_6CdUJpUjo19z032xoLQAgC_NyYpQxRU-BPSsLPMbvOj9oEcpxiTNFGCC-6p_ihKH2y5G00_6RV2ptcgGDofaP-ASVfyR4ijUg8VoM_3qkcYAQ&sig=AOD64_1UQmZvEAsr_bxQhB2I0xc4-OqjwA&client=ca-pub-0447284344517370&rf=1&nb=1&adurl=https://www.brocard.ua/ua/promotion/tsini-dnya%3Fgad_source%3D5%26gad_campaignid%3D21970324680%26gclid%3DEAIaIQobChMI0I-7rJiSkAMV8P87Ah0GrxUpEAEYASAAEgIW7PD_BwE
+              - link "Купуйте зараз" [ref=f1e17] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=C2QLWHxXlaJCEGvD_78EPht7WyALouMutggG585CnhxXb2R4QASDBl_QHYKXGoobkIqABkvDSiwPIAQGpAr5JfVNu_lk-qAMByAPLBKoEtwNP0INRwXZze-t8AkTMejxYuUefSxpL8DIkafEqihPG7QQM72fTy4ZsQDJDxRcjtSAJZ-y4Gt0KWCMkpM1yVpF2qnnPujG3lSmn_FUaFTa9MY1GFopFx8BuR-QIBwJVlkO2i7taAJ_I4_x42h21lVymDSawPBh-DrDxfzV20aJyGGeomWmXLxsFe9U0GxFdHNnzFiVwUbsTraAoOuRrMPRK6xs0-JvDrEPEXoD96GGJQRybDTz4r8_xeNGwxAEkpTPT451GB8uQayrR1BHkb_sFd4PVRciFEZGszoxgAmZFng5nvId4mYfA2o_7JhUlcMhohgWBoq6S9BBgOX6tQ40YqCB0cRnw5KHFQtZJACzVB9PRz0T-zaqSdooNJRKGcO3F11qQQ5KZEPvIxaoseMQBlrG2y8H-SWa8jcG0eI5Ta19o0Z_Og9KSLDFbp75Rx5ExKM2feYNhXIbPzUg1oy6bQHMzkcdBgdoys9pgddCfRv7il0JN5Nkyb8z2R1uuCSeDiTIoQpvEDB6qwghgsYtCM41--QONM22flmlwa4P6_dNPt_2OPWXL8f3BsfkUsPXRGJkS8d0FwASs3tHUngWIBciZouxRgAfZsJeIBagHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHAdIIKQiAYRABGJ8BMgKKAjoNgECAwICAgICogAKoA0i9_cE6WKD7uayYkpADsQnQxwW-_B-pHoAKAZgLAcgLAaoNAlVByA0B6g0TCL3S5KyYkpADFfD_OwIdBq8VKfANAogOBdgTA9AVAcoWAgoA-BYBgBcBshcCGAG6FwI4AbIYCRICuU8YASIBANAYAegYAcIZAggB&ae=1&gclid=EAIaIQobChMI0I-7rJiSkAMV8P87Ah0GrxUpEAEYASAAEgIW7PD_BwE&num=1&cid=CAQSnwEAwksa0RaziyJX4ERq97Eh69cgJUmPatuAQuTpGAeAtBmPuHklObAu2aXLyLjxopdiqX2Hvqp-oOJD7Ny5efiIQvzY2tF6e6gKIrJtrt9J_6CdUJpUjo19z032xoLQAgC_NyYpQxRU-BPSsLPMbvOj9oEcpxiTNFGCC-6p_ihKH2y5G00_6RV2ptcgGDofaP-ASVfyR4ijUg8VoM_3qkcYAQ&sig=AOD64_1UQmZvEAsr_bxQhB2I0xc4-OqjwA&client=ca-pub-0447284344517370&rf=1&nb=8&adurl=https://www.brocard.ua/ua/promotion/tsini-dnya%3Fgad_source%3D5%26gad_campaignid%3D21970324680%26gclid%3DEAIaIQobChMI0I-7rJiSkAMV8P87Ah0GrxUpEAEYASAAEgIW7PD_BwE
+                - generic [ref=f1e21] [cursor=pointer]:
+                  - generic [ref=f1e23] [cursor=pointer]: Купуйте зараз
+                  - img [ref=f1e24] [cursor=pointer]
+            - img [ref=f1e29] [cursor=pointer]
+            - button [ref=f1e31] [cursor=pointer]:
+              - img [ref=f1e32] [cursor=pointer]
+            - iframe
+      - generic [ref=e52]:
+        - heading "Search" [level=2] [ref=e53]
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e56]: Searchfield
+            - paragraph [ref=e57]:
+              - textbox "Searchfield" [active] [ref=e58]: Redmine
+              - generic [ref=e59]: Search scope
+              - combobox "Search scope" [ref=e60]:
+                - option "All Projects"
+                - option "Redmine and its subprojects" [selected]
+                - option "Redmine"
+              - generic [ref=e61]:
+                - checkbox "All words" [ref=e62]
+                - text: All words
+              - generic [ref=e63]:
+                - checkbox "Search titles only" [ref=e64]
+                - text: Search titles only
+            - group "Check all / Uncheck all" [ref=e65]:
+              - link "Check all / Uncheck all" [ref=e67] [cursor=pointer]:
+                - /url: "#"
+              - paragraph [ref=e68]:
+                - generic [ref=e69]:
+                  - checkbox "Issues" [checked] [ref=e70]
+                  - link "Issues" [ref=e71] [cursor=pointer]:
+                    - /url: "#"
+                - generic [ref=e72]:
+                  - checkbox "News" [checked] [ref=e73]
+                  - link "News" [ref=e74] [cursor=pointer]:
+                    - /url: "#"
+                - generic [ref=e75]:
+                  - checkbox "Documents" [checked] [ref=e76]
+                  - link "Documents" [ref=e77] [cursor=pointer]:
+                    - /url: "#"
+                - generic [ref=e78]:
+                  - checkbox "Changesets" [checked] [ref=e79]
+                  - link "Changesets" [ref=e80] [cursor=pointer]:
+                    - /url: "#"
+                - generic [ref=e81]:
+                  - checkbox "Wiki pages" [checked] [ref=e82]
+                  - link "Wiki pages" [ref=e83] [cursor=pointer]:
+                    - /url: "#"
+                - generic [ref=e84]:
+                  - checkbox "Messages" [checked] [ref=e85]
+                  - link "Messages" [ref=e86] [cursor=pointer]:
+                    - /url: "#"
+                - generic [ref=e87]:
+                  - checkbox "Projects" [checked] [ref=e88]
+                  - link "Projects" [ref=e89] [cursor=pointer]:
+                    - /url: "#"
+                - generic [ref=e90]:
+                  - checkbox "Redmine plugins" [checked] [ref=e91]
+                  - link "Redmine plugins" [ref=e92] [cursor=pointer]:
+                    - /url: "#"
+            - group "Options" [ref=e93]:
+              - generic [ref=e94] [cursor=pointer]: Options
+          - paragraph [ref=e95]:
+            - button "Search" [ref=e96] [cursor=pointer]
+        - generic [ref=e97]:
+          - list:
+            - listitem [ref=e98]:
+              - link "Messages (38192)" [ref=e99] [cursor=pointer]:
+                - /url: /projects/redmine/search?all_words=&messages=1&q=Redmine&scope=subprojects&titles_only=
+            - listitem [ref=e100]:
+              - link "Issues (13685)" [ref=e101] [cursor=pointer]:
+                - /url: /projects/redmine/search?all_words=&issues=1&q=Redmine&scope=subprojects&titles_only=
+            - listitem [ref=e102]:
+              - link "Redmine plugins (1007)" [ref=e103] [cursor=pointer]:
+                - /url: /projects/redmine/search?all_words=&q=Redmine&redmine_plugins=1&scope=subprojects&titles_only=
+            - listitem [ref=e104]:
+              - link "Changesets (946)" [ref=e105] [cursor=pointer]:
+                - /url: /projects/redmine/search?all_words=&changesets=1&q=Redmine&scope=subprojects&titles_only=
+            - listitem [ref=e106]:
+              - link "Wiki pages (526)" [ref=e107] [cursor=pointer]:
+                - /url: /projects/redmine/search?all_words=&q=Redmine&scope=subprojects&titles_only=&wiki_pages=1
+            - listitem [ref=e108]:
+              - link "News (156)" [ref=e109] [cursor=pointer]:
+                - /url: /projects/redmine/search?all_words=&news=1&q=Redmine&scope=subprojects&titles_only=
+            - listitem [ref=e110]:
+              - link "Projects (1)" [ref=e111] [cursor=pointer]:
+                - /url: /projects/redmine/search?all_words=&projects=1&q=Redmine&scope=subprojects&titles_only=
+        - heading "Results (54513)" [level=3] [ref=e112]
+        - generic [ref=e113]:
+          - term [ref=e114]:
+            - 'link "Open discussion: Automating Test Workflows in Redmine: Integrations, Tools, and Real-World Examples" [ref=e115] [cursor=pointer]':
+              - /url: /boards/1/topics/71166
+              - text: "Open discussion: Automating Test Workflows in"
+              - generic [ref=e116] [cursor=pointer]: Redmine
+              - text: ": Integrations, Tools, and Real-World Examples"
+          - definition [ref=e117]:
+            - generic [ref=e118]:
+              - text: Hello everyone, I’ve been exploring different ways to integrate test automation with
+              - generic [ref=e119]: Redmine
+              - text: for better tracking and visibility. I’m part ... mocks from API calls, which could complement
+              - generic [ref=e120]: Redmine
+              - text: ’s issue tracking for regression testing or b ... gins or CI hooks to run automated tests from
+              - generic [ref=e121]: Redmine
+              - text: "? How do you report test results or link f ... treamline QA and project management together."
+            - generic [ref=e122]: 2025-10-07 09:00
+          - term [ref=e123]:
+            - 'link "Patch #43321 (New): Remove deprecated method ApplicationHelper#render_if_exist" [ref=e124] [cursor=pointer]':
+              - /url: /issues/43321
+          - definition [ref=e125]:
+            - generic [ref=e126]:
+              - text: "@ApplicationHelper#render_if_exist@ was deprecated in"
+              - generic [ref=e127]: Redmine
+              - text: "6.0.0 (see #39527) and was scheduled to be removed in"
+              - generic [ref=e128]: Redmine
+              - text: 7.0. The attached patch removes the method along with its related tests.
+            - generic [ref=e129]: 2025-10-07 03:02
+          - term [ref=e130]:
+            - 'link "Help: RE: Error 403 Forbidden Redmine Org Page" [ref=e131] [cursor=pointer]':
+              - /url: /boards/2/topics/71111?r=71164#message-71164
+              - text: "Help: RE: Error 403 Forbidden"
+              - generic [ref=e132] [cursor=pointer]: Redmine
+              - text: Org Page
+          - definition [ref=e133]:
+            - generic [ref=e134]: It is working now! Thanks!
+            - generic [ref=e135]: 2025-10-06 16:27
+          - term [ref=e136]:
+            - 'link "Open discussion: RE: Redmine Report Plugin" [ref=e137] [cursor=pointer]':
+              - /url: /boards/1/topics/71158?r=71163#message-71163
+              - text: "Open discussion: RE:"
+              - generic [ref=e138] [cursor=pointer]: Redmine
+              - text: Report Plugin
+          - definition [ref=e139]:
+            - generic [ref=e140]:
+              - text: Thank you very much for your answer and your ... f there’s no free option available, does the
+              - generic [ref=e141]: Redmine
+              - text: UP Agile plugin you mentioned provide this kind of functionality in its paid version?
+            - generic [ref=e142]: 2025-10-06 08:59
+          - term [ref=e143]:
+            - 'link "Help: RE: Error 403 Forbidden Redmine Org Page" [ref=e144] [cursor=pointer]':
+              - /url: /boards/2/topics/71111?r=71162#message-71162
+              - text: "Help: RE: Error 403 Forbidden"
+              - generic [ref=e145] [cursor=pointer]: Redmine
+              - text: Org Page
+          - definition [ref=e146]:
+            - generic [ref=e147]: Please check now.
+            - generic [ref=e148]: 2025-10-04 21:38
+          - term [ref=e149]:
+            - 'link "Open discussion: RE: Redmine Report Plugin" [ref=e150] [cursor=pointer]':
+              - /url: /boards/1/topics/71158?r=71161#message-71161
+              - text: "Open discussion: RE:"
+              - generic [ref=e151] [cursor=pointer]: Redmine
+              - text: Report Plugin
+          - definition [ref=e152]:
+            - generic [ref=e153]:
+              - text: For an overall summary in a project, you can already use
+              - generic [ref=e154]: Redmine
+              - text: "'s summary reports which you can access from ... rious metrics, including by tracker. For the"
+              - generic [ref=e155]: Redmine
+              - text: "project itself, this is available here for example: https://www."
+              - generic [ref=e156]: redmine
+              - text: .org/projects/
+              - generic [ref=e157]: redmine
+              - text: /issues/report/tracker Unfortunately, this ... issue status? In any case, in addition to
+              - generic [ref=e158]: Redmine
+              - text: "'s builtin reports, you may also be able to leverage the agile charts which are shipped in \""
+              - generic [ref=e159]: Redmine
+              - text: UP's Agile plugin":https://www.
+              - generic [ref=e160]: redmine
+              - text: up.com/pages/plugins/agile#features.
+            - generic [ref=e161]: 2025-10-04 20:57
+          - term [ref=e162]:
+            - 'link "Patch #43289 (Closed): Incorrect comments_count value in News fixture for news_001" [ref=e163] [cursor=pointer]':
+              - /url: /issues/43289
+          - definition [ref=e164]:
+            - generic [ref=e165]:
+              - text: In the test fixture @news.yml@, the @news_001 ... s item. Since this is confusing when testing
+              - generic [ref=e166]: Redmine
+              - text: ", the @comments_count@ value should be update ... id grey;}.clipboard-202510041719-u7zsh.png!"
+            - generic [ref=e167]: 2025-10-04 10:27
+          - term [ref=e168]:
+            - 'link "Open discussion: Redmine Report Plugin" [ref=e169] [cursor=pointer]':
+              - /url: /boards/1/topics/71158
+              - text: "Open discussion:"
+              - generic [ref=e170] [cursor=pointer]: Redmine
+              - text: Report Plugin
+          - definition [ref=e171]:
+            - generic [ref=e172]:
+              - text: Hello everyone, I would like to create a simple report in
+              - generic [ref=e173]: Redmine
+              - text: based on the attached example. The idea i ... Some report plugins are not compatible with
+              - generic [ref=e174]: Redmine
+              - text: 6.x (they break on installation or require patching). Others (like
+              - generic [ref=e175]: Redmine
+              - text: "UP Reporter) are paid only and not freely ava ... n: Is there any free and working plugin for"
+              - generic [ref=e176]: Redmine
+              - text: 6.x that can provide such simple tracker-bas ... s in advance for any tips or recommendations!
+            - generic [ref=e177]: 2025-10-02 23:06
+          - term [ref=e178]:
+            - 'link "Defect #43282 (New): Locked users are not shown in gray in the user list" [ref=e179] [cursor=pointer]':
+              - /url: /issues/43282
+          - definition [ref=e180]:
+            - generic [ref=e181]:
+              - text: In the user list for administrators, locked users were displayed in gray in
+              - generic [ref=e182]: Redmine
+              - text: 5.0 and earlier. However, since
+              - generic [ref=e183]: Redmine
+              - text: 5.1, they have been displayed in black, the ... der to identify locked users in the list.
+              - generic [ref=e184]: Redmine
+              - text: "5.0: !user-list-5_0%402x.png!"
+              - generic [ref=e185]: Redmine
+              - text: "5.1: !user-list-5_1%402x.png!"
+            - generic [ref=e186]: 2025-10-02 03:20
+          - term [ref=e187]:
+            - 'link "Defect #43278 (Closed): Error on db:migrate from version 6.0 to version 6.1" [ref=e188] [cursor=pointer]':
+              - /url: /issues/43278
+          - definition [ref=e189]:
+            - generic [ref=e190]:
+              - text: When I try to migrate my data from docker "
+              - generic [ref=e191]: redmine
+              - text: :6.0" to "
+              - generic [ref=e192]: redmine
+              - text: ":6.1\" (official docker images), I get an erro ... Used docker versions: * nginx:latest *"
+              - generic [ref=e193]: redmine
+              - text: :6.0 =>
+              - generic [ref=e194]: redmine
+              - text: :6.1 * mysql:8.1 I have done the follow ... 3.3.1 -> 4.2 4.2 -> 5.1 5.1 -> 6.0
+            - generic [ref=e195]: 2025-09-30 12:04
+          - term [ref=e196]:
+            - 'link "Defect #43277 (Closed): Sorting of Comments" [ref=e197] [cursor=pointer]':
+              - /url: /issues/43277
+          - definition [ref=e198]:
+            - generic [ref=e199]:
+              - text: "In my personal settings I set \"Display Commen ... ronological order. <pre> Environment:"
+              - generic [ref=e200]: Redmine
+              - text: version 6.0.7.stable Ruby ... pter Mailer delivery smtp
+              - generic [ref=e201]: Redmine
+              - text: "settings:"
+              - generic [ref=e202]: Redmine
+              - text: theme
+              - generic [ref=e203]: Redmine
+              - text: "x_theme SCM: Subversion ... 2.47.3 Filesystem"
+              - generic [ref=e204]: Redmine
+              - text: "plugins: 000_"
+              - generic [ref=e205]: redmine
+              - text: _x_ux_upgrade 1.4.4
+              - generic [ref=e206]: redmine
+              - text: _ckeditor 1.2.9
+              - generic [ref=e207]: redmine
+              - text: _editauthor 0.11.1
+              - generic [ref=e208]: redmine
+              - text: _extended_watchers 6.0.5
+              - generic [ref=e209]: redmine
+              - text: _silencer 0.5.0
+              - generic [ref=e210]: redmine
+              - text: _x_client 1.1.0
+              - generic [ref=e211]: redmine
+              - text: _x_lightbox2 1.1.0
+              - generic [ref=e212]: redmine
+              - text: _x_project_templates 1.2.5 </pre>
+            - generic [ref=e213]: 2025-09-30 08:03
+          - term [ref=e214]:
+            - 'link "Revision 24020 (svn): Fix labels not displayed for form.text_area fields in Redmine with Rails 8 (#43268, #43205)." [ref=e215] [cursor=pointer]':
+              - /url: /projects/redmine/repository/svn/revisions/24020
+              - text: "Revision 24020 (svn): Fix labels not displayed for form.text_area fields in"
+              - generic [ref=e216] [cursor=pointer]: Redmine
+              - text: "with Rails 8 (#43268, #43205)."
+          - definition [ref=e217]:
+            - generic [ref=e218]: Patch by Mizuki ISHIKAWA (user:ishikawa999).
+            - generic [ref=e219]: 2025-09-29 22:12
+          - term [ref=e220]:
+            - 'link "Open discussion: RE: Upgrade Path from Old Redmine Version to Latest" [ref=e221] [cursor=pointer]':
+              - /url: /boards/1/topics/71151?r=71153#message-71153
+              - text: "Open discussion: RE: Upgrade Path from Old"
+              - generic [ref=e222] [cursor=pointer]: Redmine
+              - text: Version to Latest
+          - definition [ref=e223]:
+            - generic [ref=e224]:
+              - text: You can follow the generic upgrade path. See [[
+              - generic [ref=e225]: Redmine
+              - text: Upgrade]]. Note though that the environmental requirements are vastly different for a current
+              - generic [ref=e226]: Redmine
+              - text: version compared to what you have there. Thus, you will likely want to install a new
+              - generic [ref=e227]: Redmine
+              - text: on a new server first. Once everything works ... orking) backup of all data and your database.
+            - generic [ref=e228]: 2025-09-29 21:21
+          - term [ref=e229]:
+            - 'link "Patch #43275 (Resolved): Remove continue-on-error: true from the system test job in GitHub CI" [ref=e230] [cursor=pointer]':
+              - /url: /issues/43275
+          - definition [ref=e231]:
+            - generic [ref=e232]:
+              - text: "In Issue #42688, we enabled system tests in G ... have failed randomly: https://github.com/"
+              - generic [ref=e233]: redmine
+              - text: /
+              - generic [ref=e234]: redmine
+              - text: /actions/runs/17997977198/job/51201043679 <p ... es_test.rb:535 </pre> https://github.com/
+              - generic [ref=e235]: redmine
+              - text: /
+              - generic [ref=e236]: redmine
+              - text: /actions/runs/17524925619/job/49774056877 <p ... es_test.rb:199 </pre> https://github.com/
+              - generic [ref=e237]: redmine
+              - text: /
+              - generic [ref=e238]: redmine
+              - text: /actions/runs/16862095340/job/47763775869 <p ... unstable tests when they fail in the future.
+            - generic [ref=e239]: 2025-09-29 19:22
+          - term [ref=e240]:
+            - 'link "Open discussion: Upgrade Path from Old Redmine Version to Latest" [ref=e241] [cursor=pointer]':
+              - /url: /boards/1/topics/71151
+              - text: "Open discussion: Upgrade Path from Old"
+              - generic [ref=e242] [cursor=pointer]: Redmine
+              - text: Version to Latest
+          - definition [ref=e243]:
+            - generic [ref=e244]:
+              - text: "Hello, is it possible for me to upgrade to ... u recommend me to take? Environment:"
+              - generic [ref=e245]: Redmine
+              - text: version 2.3.2.stable Ruby ... tion Database adapter Mysql2
+            - generic [ref=e246]: 2025-09-29 12:14
+          - term [ref=e247]:
+            - 'link "Defect #43268 (Closed): Labels not displayed for form.text_area fields in Redmine with Rails 8" [ref=e248] [cursor=pointer]':
+              - /url: /issues/43268
+              - text: "Defect #43268 (Closed): Labels not displayed for form.text_area fields in"
+              - generic [ref=e249] [cursor=pointer]: Redmine
+              - text: with Rails 8
+          - definition [ref=e250]:
+            - generic [ref=e251]:
+              - text: When using the latest
+              - generic [ref=e252]: Redmine
+              - text: "(Rails 8), the labels for Summary and Descri ... **Steps to Reproduce**: * Use the latest"
+              - generic [ref=e253]: Redmine
+              - text: running on Rails 8. * Open the New News cre ... screenshot%202025-09-29%2016.34.20.png! |
+              - generic [ref=e254]: Redmine
+              - text: overrides methods in app/lib/
+              - generic [ref=e255]: redmine
+              - text: /views/labelled_form_builder.rb so that a lab ... when using field helpers( https://github.com/
+              - generic [ref=e256]: redmine
+              - text: /
+              - generic [ref=e257]: redmine
+              - text: /blob/b84fe00f9daeea6d0f43bb1127444a94034ff403/lib/
+              - generic [ref=e258]: redmine
+              - text: /views/labelled_form_builder.rb#L25-L32 ), wi ... 15e64da6532449f03ef0bL1683-R1686 ). Because
+              - generic [ref=e259]: Redmine
+              - text: currently expects textarea to be present, fo ... o longer triggers automatic label generation.
+            - generic [ref=e260]: 2025-09-29 09:39
+          - term [ref=e261]:
+            - 'link "Help: RE: Error 403 Forbidden Redmine Org Page" [ref=e262] [cursor=pointer]':
+              - /url: /boards/2/topics/71111?r=71149#message-71149
+              - text: "Help: RE: Error 403 Forbidden"
+              - generic [ref=e263] [cursor=pointer]: Redmine
+              - text: Org Page
+          - definition [ref=e264]:
+            - generic [ref=e265]: I reported the issue to Jean-Philippe.
+            - generic [ref=e266]: 2025-09-28 22:47
+          - term [ref=e267]:
+            - 'link "Feature #43261 (New): Add border-bottom to issue history to avoid accidental issue deletion" [ref=e268] [cursor=pointer]':
+              - /url: /issues/43261
+          - definition [ref=e269]:
+            - generic [ref=e270]:
+              - text: This patch adds a divider line at the bottom ... only meant to delete the last comment. In
+              - generic [ref=e271]: Redmine
+              - text: 4.0.0, a border around the whole history was introduced for the same reason (#26662). However, in
+              - generic [ref=e272]: Redmine
+              - text: 6.1.0 the new design removed this border, br ... d of the history. This makes it clear, as in
+              - generic [ref=e273]: Redmine
+              - text: "6.0 and earlier, that the menu is not part o ... !{border: 1px solid grey;}.after%402x.png!"
+            - generic [ref=e274]: 2025-09-28 10:30
+          - term [ref=e275]:
+            - 'link "Feature #43258 (New): automatic list marker - with SHIFT-RETURN just a new line" [ref=e276] [cursor=pointer]':
+              - /url: /issues/43258
+          - definition [ref=e277]:
+            - generic [ref=e278]: With version 6.1.0, the automatic list marker ... double Enter here it continues </pre>
+            - generic [ref=e279]: 2025-09-28 00:16
+          - term [ref=e280]:
+            - 'link "Patch #43257 (Closed): Remove unused files related to the quote reply feature" [ref=e281] [cursor=pointer]':
+              - /url: /issues/43257
+          - definition [ref=e282]:
+            - generic [ref=e283]:
+              - text: This patch removes the following unused files ... this patch. https://github.com/hidakatsuya/
+              - generic [ref=e284]: redmine
+              - text: /actions/runs/17954396849
+            - generic [ref=e285]: 2025-09-27 13:36
+          - term [ref=e286]:
+            - 'link "Feature #43256 (Closed): Introduce Open Color to unify and standardize CSS colors" [ref=e287] [cursor=pointer]':
+              - /url: /issues/43256
+          - definition [ref=e288]:
+            - generic [ref=e289]:
+              - text: The attached patches update
+              - generic [ref=e290]: Redmine
+              - text: "'s CSS to replace hexadecimal color codes wit ... rs from Open Color are already being used in"
+              - generic [ref=e291]: Redmine
+              - text: "6.1.0 for the background colors of the built ... width: 600px;}.roadmap-with-open-color.png!"
+            - generic [ref=e292]: 2025-09-27 11:52
+          - term [ref=e293]:
+            - 'link "Help: RE: Error 403 Forbidden Redmine Org Page" [ref=e294] [cursor=pointer]':
+              - /url: /boards/2/topics/71111?r=71147#message-71147
+              - text: "Help: RE: Error 403 Forbidden"
+              - generic [ref=e295] [cursor=pointer]: Redmine
+              - text: Org Page
+          - definition [ref=e296]:
+            - generic [ref=e297]: I Nicolas. I am from Argentina and I have the ... Maybe the server block our Network or IPs?
+            - generic [ref=e298]: 2025-09-26 20:09
+          - term [ref=e299]:
+            - 'link "Defect #43255 (Needs feedback): mail_handler ... lugins monkey patch some methods (with patch)" [ref=e300] [cursor=pointer]':
+              - /url: /issues/43255
+          - definition [ref=e301]:
+            - generic [ref=e302]:
+              - text: I recently realized that my incoming emails w ... d be ignore. It turns out that the plugin
+              - generic [ref=e303]: redmine
+              - text: _per_project_formatting I'm using monkey patc ... able instead of only searching for it in the
+              - generic [ref=e304]: Redmine
+              - text: "module : <pre><code class=\"diff\"> --- ap ... else # ignoring it </code></pre>"
+            - generic [ref=e305]: 2025-09-26 18:44
+          - term [ref=e306]:
+            - 'link "Help: RE: Redmine 6 additional installed themes don''t work" [ref=e307] [cursor=pointer]':
+              - /url: /boards/2/topics/70963?r=71143#message-71143
+              - text: "Help: RE:"
+              - generic [ref=e308] [cursor=pointer]: Redmine
+              - text: 6 additional installed themes don't work
+          - definition [ref=e309]:
+            - generic [ref=e310]: Can the correct instructions be put on the th ... asset pipeline and breaks the default themes.
+            - generic [ref=e311]: 2025-09-24 17:36
+          - term [ref=e312]:
+            - 'link "Defect #43249 (New): Update REXML gem to vers ... ue to security vulnerability (CVE-2025-58767)" [ref=e313] [cursor=pointer]':
+              - /url: /issues/43249
+          - definition [ref=e314]:
+            - generic [ref=e315]:
+              - text: Greetings, According to a security advisor ... e security of the application. Currently,
+              - generic [ref=e316]: Redmine
+              - text: 6.1.0 is using REXML version 3.3.9. Refer ... tion of this request. Kind regards, Beladric
+            - generic [ref=e317]: 2025-09-24 14:12
+        - generic [ref=e318]:
+          - list [ref=e319]:
+            - listitem [ref=e320]:
+              - generic [ref=e321]: « Previous
+            - listitem [ref=e322]:
+              - generic [ref=e323]: "1"
+            - listitem [ref=e324]:
+              - link "2" [ref=e325] [cursor=pointer]:
+                - /url: /projects/redmine/search?all_words=&attachments=0&changesets=1&commit=Search&documents=1&issues=1&messages=1&news=1&options=0&page=2&projects=1&q=Redmine&redmine_plugins=1&scope=subprojects&titles_only=&utf8=%E2%9C%93&wiki_pages=1
+            - listitem [ref=e326]:
+              - link "3" [ref=e327] [cursor=pointer]:
+                - /url: /projects/redmine/search?all_words=&attachments=0&changesets=1&commit=Search&documents=1&issues=1&messages=1&news=1&options=0&page=3&projects=1&q=Redmine&redmine_plugins=1&scope=subprojects&titles_only=&utf8=%E2%9C%93&wiki_pages=1
+            - listitem [ref=e328]:
+              - generic [ref=e329]: …
+            - listitem [ref=e330]:
+              - link "2181" [ref=e331] [cursor=pointer]:
+                - /url: /projects/redmine/search?all_words=&attachments=0&changesets=1&commit=Search&documents=1&issues=1&messages=1&news=1&options=0&page=2181&projects=1&q=Redmine&redmine_plugins=1&scope=subprojects&titles_only=&utf8=%E2%9C%93&wiki_pages=1
+            - listitem [ref=e332]:
+              - link "Next »" [ref=e333] [cursor=pointer]:
+                - /url: /projects/redmine/search?all_words=&attachments=0&changesets=1&commit=Search&documents=1&issues=1&messages=1&news=1&options=0&page=2&projects=1&q=Redmine&redmine_plugins=1&scope=subprojects&titles_only=&utf8=%E2%9C%93&wiki_pages=1
+          - generic [ref=e335]: (1-25/54513)
+    - generic [ref=e336]:
+      - text: Powered by
+      - link "Redmine" [ref=e337] [cursor=pointer]:
+        - /url: https://www.redmine.org/
+      - text: © 2006-2023 Jean-Philippe Lang
+  - log [ref=e338]
+  - insertion [ref=e339]:
+    - iframe [ref=e342]:
+      - generic [active] [ref=f2e1]:
+        - generic [ref=f2e6]:
+          - generic [ref=f2e7]:
+            - link "Купуй цього вівторка" [ref=f2e10] [cursor=pointer]:
+              - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CPwd2HxXlaPetItKR78EPnL7mqAXouMutggG585CnhxXb2R4QASDBl_QHYKXGoobkIqABkvDSiwPIAQGpAkp71PgA-lk-qAMByAPLBKoEuwNP0HbLBXa1wYsvZOAA0uHtQ3oFUvTayRcw5GbjCb6cbjkMzD-kNSJ2osqV_tsJoRFSxvK1hM8BdAaBw4buqzY60yqA0ecOX62_7-hz_ZgqfDz290osqajWzw4MxeIzXEpNNjLYWwAewpQrVVY-sDM_ArPqIjq5s3xnfWDu00xQFKg31lDlJ6lYgrNKm05Fgd4VP3T-MqXWonfyrSVY4ueTztknr_-WGQRwhQGHHRRhkwoOcavgz1MvrbO2pDUE6N10gHhWqFXXs4LUjRlOwfVMHofHr39TwHZDDQUqZNTbRanCURiEuaDosyPq4zfLwyZIGhOSugTOiXqPLuNPJ9okWZ5vEFnJt_zcIK67HOPLLq7hANg5diqPVQCJCA9etjmSGysduAqMYvujzKY9NEMdaXrRKHzq8ux2scxTKvI8afttt6uq1WYLFOT4Yf9U-Y-sj3FiPL1UmcKUUTSFNt75NCNam61xWHaRZSWjZaK2ITAJ9d7Z3DaDLYk8Wy-F0Ufn50YSnDsmX-P7BrHmOYTO9CTseaae_9doa16hi9Sc7nakKmCSByYhwC79jbRX_SWUm93U9gdx_mi70MAErN7R1J4FiAXImaLsUYAH2bCXiAWoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwHSCCkIgGEQARifATICigI6DYBAgMCAgICAqIACqANIvf3BOljso8KsmJKQA7EJ0McFvvwfqR6ACgGYCwHICwGqDQJVQcgNAeoNEwjuju-smJKQAxXSyDsCHRyfGVXwDQKIDgnYEwPQFQHKFgIKAPgWAYAXAbIXAhgBuhcCOAGyGAkSArlPGAEiAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIt7nDrJiSkAMV0sg7Ah0cnxlVEAEYASAAEgKqOvD_BwE&num=1&cid=CAQSnwEAwksa0RtnOXCR7lIIq8ww7X5kXRLWPyV1Ax4RuQYzsDXX9etK2kDlhjXUDcFUIu2-hbUTj4OnIwTW8-ZfNViBcWsUdQ-BmkFvUX0YLE9Bd9vQWRBRknpHvGKqnepSYGHazwUPTtzBmgXLisUIIL-7ibVSfxNSBQq4DCNi5IhbaJFIj0-L5iPq1dYrHmqXxLmDByPaKXoek7iGzUIsM9QYAQ&sig=AOD64_0pDhGMyclJtmcKmIjkKfjRCsgbOQ&client=ca-pub-0447284344517370&rf=1&nb=0&adurl=https://www.brocard.ua/ua/promotion/tsini-dnya%3Fgad_source%3D5%26gad_campaignid%3D21970324680%26gclid%3DEAIaIQobChMIt7nDrJiSkAMV0sg7Ah0cnxlVEAEYASAAEgKqOvD_BwE
+            - 'link "Хітовий вівторок: замов омріяні б’юті-товари за ціною дня на сайті та у застосунку BROCARD BROCARD" [ref=f2e12] [cursor=pointer]':
+              - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CPwd2HxXlaPetItKR78EPnL7mqAXouMutggG585CnhxXb2R4QASDBl_QHYKXGoobkIqABkvDSiwPIAQGpAkp71PgA-lk-qAMByAPLBKoEuwNP0HbLBXa1wYsvZOAA0uHtQ3oFUvTayRcw5GbjCb6cbjkMzD-kNSJ2osqV_tsJoRFSxvK1hM8BdAaBw4buqzY60yqA0ecOX62_7-hz_ZgqfDz290osqajWzw4MxeIzXEpNNjLYWwAewpQrVVY-sDM_ArPqIjq5s3xnfWDu00xQFKg31lDlJ6lYgrNKm05Fgd4VP3T-MqXWonfyrSVY4ueTztknr_-WGQRwhQGHHRRhkwoOcavgz1MvrbO2pDUE6N10gHhWqFXXs4LUjRlOwfVMHofHr39TwHZDDQUqZNTbRanCURiEuaDosyPq4zfLwyZIGhOSugTOiXqPLuNPJ9okWZ5vEFnJt_zcIK67HOPLLq7hANg5diqPVQCJCA9etjmSGysduAqMYvujzKY9NEMdaXrRKHzq8ux2scxTKvI8afttt6uq1WYLFOT4Yf9U-Y-sj3FiPL1UmcKUUTSFNt75NCNam61xWHaRZSWjZaK2ITAJ9d7Z3DaDLYk8Wy-F0Ufn50YSnDsmX-P7BrHmOYTO9CTseaae_9doa16hi9Sc7nakKmCSByYhwC79jbRX_SWUm93U9gdx_mi70MAErN7R1J4FiAXImaLsUYAH2bCXiAWoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwHSCCkIgGEQARifATICigI6DYBAgMCAgICAqIACqANIvf3BOljso8KsmJKQA7EJ0McFvvwfqR6ACgGYCwHICwGqDQJVQcgNAeoNEwjuju-smJKQAxXSyDsCHRyfGVXwDQKIDgnYEwPQFQHKFgIKAPgWAYAXAbIXAhgBuhcCOAGyGAkSArlPGAEiAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIt7nDrJiSkAMV0sg7Ah0cnxlVEAEYASAAEgKqOvD_BwE&num=1&cid=CAQSnwEAwksa0RtnOXCR7lIIq8ww7X5kXRLWPyV1Ax4RuQYzsDXX9etK2kDlhjXUDcFUIu2-hbUTj4OnIwTW8-ZfNViBcWsUdQ-BmkFvUX0YLE9Bd9vQWRBRknpHvGKqnepSYGHazwUPTtzBmgXLisUIIL-7ibVSfxNSBQq4DCNi5IhbaJFIj0-L5iPq1dYrHmqXxLmDByPaKXoek7iGzUIsM9QYAQ&sig=AOD64_0pDhGMyclJtmcKmIjkKfjRCsgbOQ&client=ca-pub-0447284344517370&rf=1&nb=7&adurl=https://www.brocard.ua/ua/promotion/tsini-dnya%3Fgad_source%3D5%26gad_campaignid%3D21970324680%26gclid%3DEAIaIQobChMIt7nDrJiSkAMV0sg7Ah0cnxlVEAEYASAAEgKqOvD_BwE
+              - text: "Хітовий вівторок: замов омріяні б’юті-товари за ціною дня на сайті та у застосунку"
+              - text: BROCARD BROCARD
+          - link "Купуйте зараз" [ref=f2e15] [cursor=pointer]:
+            - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CPwd2HxXlaPetItKR78EPnL7mqAXouMutggG585CnhxXb2R4QASDBl_QHYKXGoobkIqABkvDSiwPIAQGpAkp71PgA-lk-qAMByAPLBKoEuwNP0HbLBXa1wYsvZOAA0uHtQ3oFUvTayRcw5GbjCb6cbjkMzD-kNSJ2osqV_tsJoRFSxvK1hM8BdAaBw4buqzY60yqA0ecOX62_7-hz_ZgqfDz290osqajWzw4MxeIzXEpNNjLYWwAewpQrVVY-sDM_ArPqIjq5s3xnfWDu00xQFKg31lDlJ6lYgrNKm05Fgd4VP3T-MqXWonfyrSVY4ueTztknr_-WGQRwhQGHHRRhkwoOcavgz1MvrbO2pDUE6N10gHhWqFXXs4LUjRlOwfVMHofHr39TwHZDDQUqZNTbRanCURiEuaDosyPq4zfLwyZIGhOSugTOiXqPLuNPJ9okWZ5vEFnJt_zcIK67HOPLLq7hANg5diqPVQCJCA9etjmSGysduAqMYvujzKY9NEMdaXrRKHzq8ux2scxTKvI8afttt6uq1WYLFOT4Yf9U-Y-sj3FiPL1UmcKUUTSFNt75NCNam61xWHaRZSWjZaK2ITAJ9d7Z3DaDLYk8Wy-F0Ufn50YSnDsmX-P7BrHmOYTO9CTseaae_9doa16hi9Sc7nakKmCSByYhwC79jbRX_SWUm93U9gdx_mi70MAErN7R1J4FiAXImaLsUYAH2bCXiAWoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwHSCCkIgGEQARifATICigI6DYBAgMCAgICAqIACqANIvf3BOljso8KsmJKQA7EJ0McFvvwfqR6ACgGYCwHICwGqDQJVQcgNAeoNEwjuju-smJKQAxXSyDsCHRyfGVXwDQKIDgnYEwPQFQHKFgIKAPgWAYAXAbIXAhgBuhcCOAGyGAkSArlPGAEiAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIt7nDrJiSkAMV0sg7Ah0cnxlVEAEYASAAEgKqOvD_BwE&num=1&cid=CAQSnwEAwksa0RtnOXCR7lIIq8ww7X5kXRLWPyV1Ax4RuQYzsDXX9etK2kDlhjXUDcFUIu2-hbUTj4OnIwTW8-ZfNViBcWsUdQ-BmkFvUX0YLE9Bd9vQWRBRknpHvGKqnepSYGHazwUPTtzBmgXLisUIIL-7ibVSfxNSBQq4DCNi5IhbaJFIj0-L5iPq1dYrHmqXxLmDByPaKXoek7iGzUIsM9QYAQ&sig=AOD64_0pDhGMyclJtmcKmIjkKfjRCsgbOQ&client=ca-pub-0447284344517370&rf=1&nb=8&adurl=https://www.brocard.ua/ua/promotion/tsini-dnya%3Fgad_source%3D5%26gad_campaignid%3D21970324680%26gclid%3DEAIaIQobChMIt7nDrJiSkAMV0sg7Ah0cnxlVEAEYASAAEgKqOvD_BwE
+            - generic [ref=f2e19] [cursor=pointer]:
+              - generic [ref=f2e21] [cursor=pointer]: Купуйте зараз
+              - img [ref=f2e22] [cursor=pointer]
+        - img [ref=f2e27] [cursor=pointer]
+        - button [ref=f2e29] [cursor=pointer]:
+          - img [ref=f2e30] [cursor=pointer]
+        - iframe
+```

@@ -1,0 +1,178 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - list:
+          - listitem [ref=e7]:
+            - link "Sign in" [ref=e8]:
+              - /url: /login
+          - listitem [ref=e9]:
+            - link "Register" [ref=e10]:
+              - /url: /account/register
+      - list:
+        - listitem [ref=e11]:
+          - link "Home" [ref=e12]:
+            - /url: /
+        - listitem [ref=e13]:
+          - link "Projects" [ref=e14]:
+            - /url: /projects
+        - listitem [ref=e15]:
+          - link "Help" [ref=e16]:
+            - /url: https://www.redmine.org/guide
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - generic [ref=e20]:
+            - link "Search" [ref=e21]:
+              - /url: /projects/redmine/search?scope=subprojects
+            - text: ":"
+          - textbox "Search:" [ref=e22]
+        - generic [ref=e24] [cursor=pointer]: Redmine
+      - heading "Redmine" [level=1] [ref=e25]:
+        - generic [ref=e26]: Redmine
+      - list [ref=e28]:
+        - listitem [ref=e29]:
+          - link "Overview" [ref=e30]:
+            - /url: /projects/redmine
+        - listitem [ref=e31]:
+          - link "Download" [ref=e32]:
+            - /url: /projects/redmine/wiki/Download
+        - listitem [ref=e33]:
+          - link "Activity" [ref=e34]:
+            - /url: /projects/redmine/activity
+        - listitem [ref=e35]:
+          - link "Roadmap" [ref=e36]:
+            - /url: /projects/redmine/roadmap
+        - listitem [ref=e37]:
+          - link "Issues" [ref=e38]:
+            - /url: /projects/redmine/issues
+        - listitem [ref=e39]:
+          - link "News" [ref=e40]:
+            - /url: /projects/redmine/news
+        - listitem [ref=e41]:
+          - link "Wiki" [ref=e42]:
+            - /url: /projects/redmine/wiki
+        - listitem [ref=e43]:
+          - link "Forums" [ref=e44]:
+            - /url: /projects/redmine/boards
+        - listitem [ref=e45]:
+          - link "Repository" [ref=e46]:
+            - /url: /projects/redmine/repository
+    - generic [ref=e47]:
+      - insertion [ref=e49]:
+        - iframe [ref=e51]:
+          - generic [active] [ref=f1e1]:
+            - generic [ref=f1e7]:
+              - generic [ref=f1e8]:
+                - generic [ref=f1e10]: BROCARD
+                - generic [ref=f1e12]: BROCARD
+              - generic [ref=f1e15]:
+                - link "Купуй цього вівторка" [ref=f1e17] [cursor=pointer]:
+                  - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CkxqiNDrlaJW_K8yXjuwPld_hqA_ouMutggG585CnhxXZ2R4QASDBl_QHYKXGoobkIqABkvDSiwPIAQGpAm9qNIoG-1k-qAMByAPLBKoE-wFP0BYT4f6XNGISRXlV6-Kj9So-okxCrM1NBOpqpKgi9SGKYnDdu-K7UdZDlikO6u5Is-Te-f3JLQ47yszJQvuIy27XwDTke7D-58jW2rK6XaOUXLlGzVj-MWtCdPJwjOFDBs5JMpuAbIVSyHxu64bfGlsT_wJgc0Aww3Wv2mtEAAViSr4oNia5IftNplTbILDlUQEiWO2dQ-eNpXD18Wqp1J6TQZ47RQRe50w4CCZkDZ16xaODvZ3pTfQyyFrnF2LKGkwGUBF5DwnMnMSJg3OzgRk4x8QTdqrfQWIEARV50ICNTUGR3u4w0zva-EGbWe5a19enQXpy6jQUWsAErN7R1J4FiAXImaLsUYAH2bCXiAWoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwHSCCkIgGEQARifATICigI6DYBAgMCAgICAqIACqANIvf3BOljTk5vbu5KQA7EJ0McFvvwfqR6ACgGYCwHICwGqDQJVQcgNAeoNEwjNuavbu5KQAxXMi4MHHZVvGPXwDQOIDgXYEwPQFQHKFgIKAPgWAYAXAbIXAhgBuhcCOAGyGAkSArlPGAEiAQDQGAHoGAHCGQIIAQ&ae=2&gclid=EAIaIQobChMIlamb27uSkAMVzIuDBx2Vbxj1EAEYASAAEgK1LPD_BwE&num=1&cid=CAQSswEAwksa0VM1R2kfX565GEZ1mguMnvB5ln0NfDNcDAZCmhDCHo3xP_ADVLACLEKR1ov468R0Rr5X_CTb2MbRNYsefMxEhKN_Z67beWfQa0oycRykUHbUwU2LOJ9KBYFgx6Ig4FTvZoQfU01AM_EQsdyb8ZME34rR80gP1EaerJ1W__7hSHf_vxeaz0k_4RWgniVr9KHB1tTWzQIqkEtefQNzvoLYAlqDUdRUVd20rTLKh5gnzhgB&sig=AOD64_31XDhEaudfrTE3pPW6k_t9RkuYyQ&client=ca-pub-0447284344517370&rf=1&nb=0&adurl=https://www.brocard.ua/ua/promotion/tsini-dnya%3Fgad_source%3D5%26gad_campaignid%3D21970324680
+                  - text: Купуй
+                  - text: цього
+                  - text: вівторка
+                - generic [ref=f1e18]:
+                  - link:
+                    - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CkxqiNDrlaJW_K8yXjuwPld_hqA_ouMutggG585CnhxXZ2R4QASDBl_QHYKXGoobkIqABkvDSiwPIAQGpAm9qNIoG-1k-qAMByAPLBKoE-wFP0BYT4f6XNGISRXlV6-Kj9So-okxCrM1NBOpqpKgi9SGKYnDdu-K7UdZDlikO6u5Is-Te-f3JLQ47yszJQvuIy27XwDTke7D-58jW2rK6XaOUXLlGzVj-MWtCdPJwjOFDBs5JMpuAbIVSyHxu64bfGlsT_wJgc0Aww3Wv2mtEAAViSr4oNia5IftNplTbILDlUQEiWO2dQ-eNpXD18Wqp1J6TQZ47RQRe50w4CCZkDZ16xaODvZ3pTfQyyFrnF2LKGkwGUBF5DwnMnMSJg3OzgRk4x8QTdqrfQWIEARV50ICNTUGR3u4w0zva-EGbWe5a19enQXpy6jQUWsAErN7R1J4FiAXImaLsUYAH2bCXiAWoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwHSCCkIgGEQARifATICigI6DYBAgMCAgICAqIACqANIvf3BOljTk5vbu5KQA7EJ0McFvvwfqR6ACgGYCwHICwGqDQJVQcgNAeoNEwjNuavbu5KQAxXMi4MHHZVvGPXwDQOIDgXYEwPQFQHKFgIKAPgWAYAXAbIXAhgBuhcCOAGyGAkSArlPGAEiAQDQGAHoGAHCGQIIAQ&ae=2&gclid=EAIaIQobChMIlamb27uSkAMVzIuDBx2Vbxj1EAEYASAAEgK1LPD_BwE&num=1&cid=CAQSswEAwksa0VM1R2kfX565GEZ1mguMnvB5ln0NfDNcDAZCmhDCHo3xP_ADVLACLEKR1ov468R0Rr5X_CTb2MbRNYsefMxEhKN_Z67beWfQa0oycRykUHbUwU2LOJ9KBYFgx6Ig4FTvZoQfU01AM_EQsdyb8ZME34rR80gP1EaerJ1W__7hSHf_vxeaz0k_4RWgniVr9KHB1tTWzQIqkEtefQNzvoLYAlqDUdRUVd20rTLKh5gnzhgB&sig=AOD64_31XDhEaudfrTE3pPW6k_t9RkuYyQ&client=ca-pub-0447284344517370&rf=1&nb=7&adurl=https://www.brocard.ua/ua/promotion/tsini-dnya%3Fgad_source%3D5%26gad_campaignid%3D21970324680
+                - link "BROCARD" [ref=f1e22] [cursor=pointer]:
+                  - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CkxqiNDrlaJW_K8yXjuwPld_hqA_ouMutggG585CnhxXZ2R4QASDBl_QHYKXGoobkIqABkvDSiwPIAQGpAm9qNIoG-1k-qAMByAPLBKoE-wFP0BYT4f6XNGISRXlV6-Kj9So-okxCrM1NBOpqpKgi9SGKYnDdu-K7UdZDlikO6u5Is-Te-f3JLQ47yszJQvuIy27XwDTke7D-58jW2rK6XaOUXLlGzVj-MWtCdPJwjOFDBs5JMpuAbIVSyHxu64bfGlsT_wJgc0Aww3Wv2mtEAAViSr4oNia5IftNplTbILDlUQEiWO2dQ-eNpXD18Wqp1J6TQZ47RQRe50w4CCZkDZ16xaODvZ3pTfQyyFrnF2LKGkwGUBF5DwnMnMSJg3OzgRk4x8QTdqrfQWIEARV50ICNTUGR3u4w0zva-EGbWe5a19enQXpy6jQUWsAErN7R1J4FiAXImaLsUYAH2bCXiAWoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwHSCCkIgGEQARifATICigI6DYBAgMCAgICAqIACqANIvf3BOljTk5vbu5KQA7EJ0McFvvwfqR6ACgGYCwHICwGqDQJVQcgNAeoNEwjNuavbu5KQAxXMi4MHHZVvGPXwDQOIDgXYEwPQFQHKFgIKAPgWAYAXAbIXAhgBuhcCOAGyGAkSArlPGAEiAQDQGAHoGAHCGQIIAQ&ae=2&gclid=EAIaIQobChMIlamb27uSkAMVzIuDBx2Vbxj1EAEYASAAEgK1LPD_BwE&num=1&cid=CAQSswEAwksa0VM1R2kfX565GEZ1mguMnvB5ln0NfDNcDAZCmhDCHo3xP_ADVLACLEKR1ov468R0Rr5X_CTb2MbRNYsefMxEhKN_Z67beWfQa0oycRykUHbUwU2LOJ9KBYFgx6Ig4FTvZoQfU01AM_EQsdyb8ZME34rR80gP1EaerJ1W__7hSHf_vxeaz0k_4RWgniVr9KHB1tTWzQIqkEtefQNzvoLYAlqDUdRUVd20rTLKh5gnzhgB&sig=AOD64_31XDhEaudfrTE3pPW6k_t9RkuYyQ&client=ca-pub-0447284344517370&rf=1&nb=1&adurl=https://www.brocard.ua/ua/promotion/tsini-dnya%3Fgad_source%3D5%26gad_campaignid%3D21970324680
+              - generic [ref=f1e26]:
+                - link "Купуйте зараз" [ref=f1e28] [cursor=pointer]:
+                  - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CkxqiNDrlaJW_K8yXjuwPld_hqA_ouMutggG585CnhxXZ2R4QASDBl_QHYKXGoobkIqABkvDSiwPIAQGpAm9qNIoG-1k-qAMByAPLBKoE-wFP0BYT4f6XNGISRXlV6-Kj9So-okxCrM1NBOpqpKgi9SGKYnDdu-K7UdZDlikO6u5Is-Te-f3JLQ47yszJQvuIy27XwDTke7D-58jW2rK6XaOUXLlGzVj-MWtCdPJwjOFDBs5JMpuAbIVSyHxu64bfGlsT_wJgc0Aww3Wv2mtEAAViSr4oNia5IftNplTbILDlUQEiWO2dQ-eNpXD18Wqp1J6TQZ47RQRe50w4CCZkDZ16xaODvZ3pTfQyyFrnF2LKGkwGUBF5DwnMnMSJg3OzgRk4x8QTdqrfQWIEARV50ICNTUGR3u4w0zva-EGbWe5a19enQXpy6jQUWsAErN7R1J4FiAXImaLsUYAH2bCXiAWoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwHSCCkIgGEQARifATICigI6DYBAgMCAgICAqIACqANIvf3BOljTk5vbu5KQA7EJ0McFvvwfqR6ACgGYCwHICwGqDQJVQcgNAeoNEwjNuavbu5KQAxXMi4MHHZVvGPXwDQOIDgXYEwPQFQHKFgIKAPgWAYAXAbIXAhgBuhcCOAGyGAkSArlPGAEiAQDQGAHoGAHCGQIIAQ&ae=2&gclid=EAIaIQobChMIlamb27uSkAMVzIuDBx2Vbxj1EAEYASAAEgK1LPD_BwE&num=1&cid=CAQSswEAwksa0VM1R2kfX565GEZ1mguMnvB5ln0NfDNcDAZCmhDCHo3xP_ADVLACLEKR1ov468R0Rr5X_CTb2MbRNYsefMxEhKN_Z67beWfQa0oycRykUHbUwU2LOJ9KBYFgx6Ig4FTvZoQfU01AM_EQsdyb8ZME34rR80gP1EaerJ1W__7hSHf_vxeaz0k_4RWgniVr9KHB1tTWzQIqkEtefQNzvoLYAlqDUdRUVd20rTLKh5gnzhgB&sig=AOD64_31XDhEaudfrTE3pPW6k_t9RkuYyQ&client=ca-pub-0447284344517370&rf=1&nb=8&adurl=https://www.brocard.ua/ua/promotion/tsini-dnya%3Fgad_source%3D5%26gad_campaignid%3D21970324680
+                - link [ref=f1e29] [cursor=pointer]:
+                  - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CkxqiNDrlaJW_K8yXjuwPld_hqA_ouMutggG585CnhxXZ2R4QASDBl_QHYKXGoobkIqABkvDSiwPIAQGpAm9qNIoG-1k-qAMByAPLBKoE-wFP0BYT4f6XNGISRXlV6-Kj9So-okxCrM1NBOpqpKgi9SGKYnDdu-K7UdZDlikO6u5Is-Te-f3JLQ47yszJQvuIy27XwDTke7D-58jW2rK6XaOUXLlGzVj-MWtCdPJwjOFDBs5JMpuAbIVSyHxu64bfGlsT_wJgc0Aww3Wv2mtEAAViSr4oNia5IftNplTbILDlUQEiWO2dQ-eNpXD18Wqp1J6TQZ47RQRe50w4CCZkDZ16xaODvZ3pTfQyyFrnF2LKGkwGUBF5DwnMnMSJg3OzgRk4x8QTdqrfQWIEARV50ICNTUGR3u4w0zva-EGbWe5a19enQXpy6jQUWsAErN7R1J4FiAXImaLsUYAH2bCXiAWoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwHSCCkIgGEQARifATICigI6DYBAgMCAgICAqIACqANIvf3BOljTk5vbu5KQA7EJ0McFvvwfqR6ACgGYCwHICwGqDQJVQcgNAeoNEwjNuavbu5KQAxXMi4MHHZVvGPXwDQOIDgXYEwPQFQHKFgIKAPgWAYAXAbIXAhgBuhcCOAGyGAkSArlPGAEiAQDQGAHoGAHCGQIIAQ&ae=2&gclid=EAIaIQobChMIlamb27uSkAMVzIuDBx2Vbxj1EAEYASAAEgK1LPD_BwE&num=1&cid=CAQSswEAwksa0VM1R2kfX565GEZ1mguMnvB5ln0NfDNcDAZCmhDCHo3xP_ADVLACLEKR1ov468R0Rr5X_CTb2MbRNYsefMxEhKN_Z67beWfQa0oycRykUHbUwU2LOJ9KBYFgx6Ig4FTvZoQfU01AM_EQsdyb8ZME34rR80gP1EaerJ1W__7hSHf_vxeaz0k_4RWgniVr9KHB1tTWzQIqkEtefQNzvoLYAlqDUdRUVd20rTLKh5gnzhgB&sig=AOD64_31XDhEaudfrTE3pPW6k_t9RkuYyQ&client=ca-pub-0447284344517370&rf=1&nb=8&adurl=https://www.brocard.ua/ua/promotion/tsini-dnya%3Fgad_source%3D5%26gad_campaignid%3D21970324680
+                  - img [ref=f1e30] [cursor=pointer]
+                - link [ref=f1e32] [cursor=pointer]:
+                  - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CkxqiNDrlaJW_K8yXjuwPld_hqA_ouMutggG585CnhxXZ2R4QASDBl_QHYKXGoobkIqABkvDSiwPIAQGpAm9qNIoG-1k-qAMByAPLBKoE-wFP0BYT4f6XNGISRXlV6-Kj9So-okxCrM1NBOpqpKgi9SGKYnDdu-K7UdZDlikO6u5Is-Te-f3JLQ47yszJQvuIy27XwDTke7D-58jW2rK6XaOUXLlGzVj-MWtCdPJwjOFDBs5JMpuAbIVSyHxu64bfGlsT_wJgc0Aww3Wv2mtEAAViSr4oNia5IftNplTbILDlUQEiWO2dQ-eNpXD18Wqp1J6TQZ47RQRe50w4CCZkDZ16xaODvZ3pTfQyyFrnF2LKGkwGUBF5DwnMnMSJg3OzgRk4x8QTdqrfQWIEARV50ICNTUGR3u4w0zva-EGbWe5a19enQXpy6jQUWsAErN7R1J4FiAXImaLsUYAH2bCXiAWoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwHSCCkIgGEQARifATICigI6DYBAgMCAgICAqIACqANIvf3BOljTk5vbu5KQA7EJ0McFvvwfqR6ACgGYCwHICwGqDQJVQcgNAeoNEwjNuavbu5KQAxXMi4MHHZVvGPXwDQOIDgXYEwPQFQHKFgIKAPgWAYAXAbIXAhgBuhcCOAGyGAkSArlPGAEiAQDQGAHoGAHCGQIIAQ&ae=2&gclid=EAIaIQobChMIlamb27uSkAMVzIuDBx2Vbxj1EAEYASAAEgK1LPD_BwE&num=1&cid=CAQSswEAwksa0VM1R2kfX565GEZ1mguMnvB5ln0NfDNcDAZCmhDCHo3xP_ADVLACLEKR1ov468R0Rr5X_CTb2MbRNYsefMxEhKN_Z67beWfQa0oycRykUHbUwU2LOJ9KBYFgx6Ig4FTvZoQfU01AM_EQsdyb8ZME34rR80gP1EaerJ1W__7hSHf_vxeaz0k_4RWgniVr9KHB1tTWzQIqkEtefQNzvoLYAlqDUdRUVd20rTLKh5gnzhgB&sig=AOD64_31XDhEaudfrTE3pPW6k_t9RkuYyQ&client=ca-pub-0447284344517370&rf=1&nb=8&adurl=https://www.brocard.ua/ua/promotion/tsini-dnya%3Fgad_source%3D5%26gad_campaignid%3D21970324680
+            - img [ref=f1e36] [cursor=pointer]
+            - button [ref=f1e38] [cursor=pointer]:
+              - img [ref=f1e39] [cursor=pointer]
+            - iframe
+      - generic [ref=e52]:
+        - heading "Search" [level=2] [ref=e53]
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e56]: Searchfield
+            - paragraph [ref=e57]:
+              - textbox "Searchfield" [ref=e58]: Redmine
+              - generic [ref=e59]: Search scope
+              - combobox "Search scope" [ref=e60]:
+                - option "All Projects"
+                - option "Redmine and its subprojects" [selected]
+                - option "Redmine"
+              - generic [ref=e61]:
+                - checkbox "All words" [ref=e62]
+                - text: All words
+              - generic [ref=e63]:
+                - checkbox "Search titles only" [ref=e64]
+                - text: Search titles only
+            - group "Check all / Uncheck all" [ref=e65]:
+              - link "Check all / Uncheck all" [ref=e67]:
+                - /url: "#"
+              - paragraph [ref=e68]:
+                - generic [ref=e69]:
+                  - checkbox "Issues" [checked] [ref=e70]
+                  - link "Issues" [ref=e71]:
+                    - /url: "#"
+                - generic [ref=e72]:
+                  - checkbox "News" [checked] [ref=e73]
+                  - link "News" [ref=e74]:
+                    - /url: "#"
+                - generic [ref=e75]:
+                  - checkbox "Documents" [checked] [ref=e76]
+                  - link "Documents" [ref=e77]:
+                    - /url: "#"
+                - generic [ref=e78]:
+                  - checkbox "Changesets" [checked] [ref=e79]
+                  - link "Changesets" [ref=e80]:
+                    - /url: "#"
+                - generic [ref=e81]:
+                  - checkbox "Wiki pages" [checked] [ref=e82]
+                  - link "Wiki pages" [ref=e83]:
+                    - /url: "#"
+                - generic [ref=e84]:
+                  - checkbox "Messages" [checked] [ref=e85]
+                  - link "Messages" [ref=e86]:
+                    - /url: "#"
+                - generic [ref=e87]:
+                  - checkbox "Projects" [checked] [ref=e88]
+                  - link "Projects" [ref=e89]:
+                    - /url: "#"
+                - generic [ref=e90]:
+                  - checkbox "Redmine plugins" [checked] [ref=e91]
+                  - link "Redmine plugins" [ref=e92]:
+                    - /url: "#"
+            - group "Options" [ref=e93]:
+              - generic [ref=e94] [cursor=pointer]: Options
+          - paragraph [ref=e95]:
+            - button "Search" [disabled] [ref=e96] [cursor=pointer]
+    - generic [ref=e97]:
+      - text: Powered by
+      - link "Redmine" [ref=e98]:
+        - /url: https://www.redmine.org/
+      - text: © 2006-2023 Jean-Philippe Lang
+  - log [ref=e99]
+  - insertion [ref=e100]:
+    - iframe [ref=e103]:
+      - generic [active] [ref=f2e1]:
+        - generic [ref=f2e5]:
+          - link [ref=f2e6] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CDza3NDrlaMTHK96FjuwP8sHy0QrouMutggGh8ZCnhxXZ2R4QASDBl_QHYKXGoobkIqABkvDSiwPIAQmpAm9qNIoG-1k-qAMByAPLBKoE_wFP0N2uowFCi57F-8iIbZ_aSYINVyMYUvYubmKGTqyjzqgoxGsgDVjy2d8j3qgmhMgclKVdDeKcez54Wp1qttHpzn-3mUao045Qc4tylPvToL51oaBXp6D88bd2TaexwkyAVlsBhj4-fsyraYEBO1bIc9AFZXUT5rT2BsnpWUj5WaRn85vZWJ54gogXpNljLr5LJQDqSyuxrG77qjGSxtO9McHxfCo-fTfcWbJNu0cvpBbPLLPPpNhakjMh9NSkyhw6RNeMpqrr2H69mT9DOZRORu3ImyUBSs-N62j9FcVuzTZ-_ZvNI5txyXXzu5wIjc7Ohv2FYu8kzZ5ri1jFkbPABJTc0dSeBYgFyJmi7FGgBi6AB9mwl4gFqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggpCIBhEAEYnwEyAooCOg2AQIDAgICAgKiAAqgDSL39wTpY-JKb27uSkAOxCdDHBb78H6kegAoBmAsByAsBgAwBqg0CVUHIDQHqDRMI3tyr27uSkAMV3oKDBx3yoDyq8A0DiA4JuBPkA9gTA9AVAcoWAgoA-BYBgBcBshcCGAG6FwI4AbIYCRICuU8YLiIBANAYAegYAcIZAggB&ae=2&gclid=EAIaIQobChMIxLGb27uSkAMV3oKDBx3yoDyqEAEYASAAEgIcz_D_BwE&num=1&cid=CAQSsQEAwksa0T1UGQAZ18OEKJ-qQU_I5tMY0j-g1iwqTnENvv7uQ3dshMB9MnzIVi5KmZ4lQ5RpSOA-rLIFStj4KlCTWLfz2JuKj0mwI0qmscU6mMPNqStZlmwULhYjsJztXWppUrlaDBRUSjU1Z4xtj4EKcBZSC3t97D6hvQf9J_-ZJVfXz6a7yvcyq2PtCVWL9yYuZl38IGqFKYcUrJ1uGTDosuJxxKW90CYhpwHio62isNcYAQ&sig=AOD64_0xmQtEeVSyLmddWb_a3UG8kqaaDA&client=ca-pub-0447284344517370&rf=1&nb=9&adurl=https://www.brocard.ua/ua/promotion/tsini-dnya%3Fgad_source%3D5%26gad_campaignid%3D21970324680
+            - img [ref=f2e7] [cursor=pointer]
+          - link [ref=f2e9] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CDza3NDrlaMTHK96FjuwP8sHy0QrouMutggGh8ZCnhxXZ2R4QASDBl_QHYKXGoobkIqABkvDSiwPIAQmpAm9qNIoG-1k-qAMByAPLBKoE_wFP0N2uowFCi57F-8iIbZ_aSYINVyMYUvYubmKGTqyjzqgoxGsgDVjy2d8j3qgmhMgclKVdDeKcez54Wp1qttHpzn-3mUao045Qc4tylPvToL51oaBXp6D88bd2TaexwkyAVlsBhj4-fsyraYEBO1bIc9AFZXUT5rT2BsnpWUj5WaRn85vZWJ54gogXpNljLr5LJQDqSyuxrG77qjGSxtO9McHxfCo-fTfcWbJNu0cvpBbPLLPPpNhakjMh9NSkyhw6RNeMpqrr2H69mT9DOZRORu3ImyUBSs-N62j9FcVuzTZ-_ZvNI5txyXXzu5wIjc7Ohv2FYu8kzZ5ri1jFkbPABJTc0dSeBYgFyJmi7FGgBi6AB9mwl4gFqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggpCIBhEAEYnwEyAooCOg2AQIDAgICAgKiAAqgDSL39wTpY-JKb27uSkAOxCdDHBb78H6kegAoBmAsByAsBgAwBqg0CVUHIDQHqDRMI3tyr27uSkAMV3oKDBx3yoDyq8A0DiA4JuBPkA9gTA9AVAcoWAgoA-BYBgBcBshcCGAG6FwI4AbIYCRICuU8YLiIBANAYAegYAcIZAggB&ae=2&gclid=EAIaIQobChMIxLGb27uSkAMV3oKDBx3yoDyqEAEYASAAEgIcz_D_BwE&num=1&cid=CAQSsQEAwksa0T1UGQAZ18OEKJ-qQU_I5tMY0j-g1iwqTnENvv7uQ3dshMB9MnzIVi5KmZ4lQ5RpSOA-rLIFStj4KlCTWLfz2JuKj0mwI0qmscU6mMPNqStZlmwULhYjsJztXWppUrlaDBRUSjU1Z4xtj4EKcBZSC3t97D6hvQf9J_-ZJVfXz6a7yvcyq2PtCVWL9yYuZl38IGqFKYcUrJ1uGTDosuJxxKW90CYhpwHio62isNcYAQ&sig=AOD64_0xmQtEeVSyLmddWb_a3UG8kqaaDA&client=ca-pub-0447284344517370&rf=1&nb=19&adurl=https://www.brocard.ua/ua/promotion/tsini-dnya%3Fgad_source%3D5%26gad_campaignid%3D21970324680
+            - img [ref=f2e10] [cursor=pointer]
+          - link "Ціни дня чекають" [ref=f2e13] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CDza3NDrlaMTHK96FjuwP8sHy0QrouMutggGh8ZCnhxXZ2R4QASDBl_QHYKXGoobkIqABkvDSiwPIAQmpAm9qNIoG-1k-qAMByAPLBKoE_wFP0N2uowFCi57F-8iIbZ_aSYINVyMYUvYubmKGTqyjzqgoxGsgDVjy2d8j3qgmhMgclKVdDeKcez54Wp1qttHpzn-3mUao045Qc4tylPvToL51oaBXp6D88bd2TaexwkyAVlsBhj4-fsyraYEBO1bIc9AFZXUT5rT2BsnpWUj5WaRn85vZWJ54gogXpNljLr5LJQDqSyuxrG77qjGSxtO9McHxfCo-fTfcWbJNu0cvpBbPLLPPpNhakjMh9NSkyhw6RNeMpqrr2H69mT9DOZRORu3ImyUBSs-N62j9FcVuzTZ-_ZvNI5txyXXzu5wIjc7Ohv2FYu8kzZ5ri1jFkbPABJTc0dSeBYgFyJmi7FGgBi6AB9mwl4gFqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggpCIBhEAEYnwEyAooCOg2AQIDAgICAgKiAAqgDSL39wTpY-JKb27uSkAOxCdDHBb78H6kegAoBmAsByAsBgAwBqg0CVUHIDQHqDRMI3tyr27uSkAMV3oKDBx3yoDyq8A0DiA4JuBPkA9gTA9AVAcoWAgoA-BYBgBcBshcCGAG6FwI4AbIYCRICuU8YLiIBANAYAegYAcIZAggB&ae=2&gclid=EAIaIQobChMIxLGb27uSkAMV3oKDBx3yoDyqEAEYASAAEgIcz_D_BwE&num=1&cid=CAQSsQEAwksa0T1UGQAZ18OEKJ-qQU_I5tMY0j-g1iwqTnENvv7uQ3dshMB9MnzIVi5KmZ4lQ5RpSOA-rLIFStj4KlCTWLfz2JuKj0mwI0qmscU6mMPNqStZlmwULhYjsJztXWppUrlaDBRUSjU1Z4xtj4EKcBZSC3t97D6hvQf9J_-ZJVfXz6a7yvcyq2PtCVWL9yYuZl38IGqFKYcUrJ1uGTDosuJxxKW90CYhpwHio62isNcYAQ&sig=AOD64_0xmQtEeVSyLmddWb_a3UG8kqaaDA&client=ca-pub-0447284344517370&rf=1&nb=0&adurl=https://www.brocard.ua/ua/promotion/tsini-dnya%3Fgad_source%3D5%26gad_campaignid%3D21970324680
+          - link "Купуйте зараз" [ref=f2e16] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CDza3NDrlaMTHK96FjuwP8sHy0QrouMutggGh8ZCnhxXZ2R4QASDBl_QHYKXGoobkIqABkvDSiwPIAQmpAm9qNIoG-1k-qAMByAPLBKoE_wFP0N2uowFCi57F-8iIbZ_aSYINVyMYUvYubmKGTqyjzqgoxGsgDVjy2d8j3qgmhMgclKVdDeKcez54Wp1qttHpzn-3mUao045Qc4tylPvToL51oaBXp6D88bd2TaexwkyAVlsBhj4-fsyraYEBO1bIc9AFZXUT5rT2BsnpWUj5WaRn85vZWJ54gogXpNljLr5LJQDqSyuxrG77qjGSxtO9McHxfCo-fTfcWbJNu0cvpBbPLLPPpNhakjMh9NSkyhw6RNeMpqrr2H69mT9DOZRORu3ImyUBSs-N62j9FcVuzTZ-_ZvNI5txyXXzu5wIjc7Ohv2FYu8kzZ5ri1jFkbPABJTc0dSeBYgFyJmi7FGgBi6AB9mwl4gFqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggpCIBhEAEYnwEyAooCOg2AQIDAgICAgKiAAqgDSL39wTpY-JKb27uSkAOxCdDHBb78H6kegAoBmAsByAsBgAwBqg0CVUHIDQHqDRMI3tyr27uSkAMV3oKDBx3yoDyq8A0DiA4JuBPkA9gTA9AVAcoWAgoA-BYBgBcBshcCGAG6FwI4AbIYCRICuU8YLiIBANAYAegYAcIZAggB&ae=2&gclid=EAIaIQobChMIxLGb27uSkAMV3oKDBx3yoDyqEAEYASAAEgIcz_D_BwE&num=1&cid=CAQSsQEAwksa0T1UGQAZ18OEKJ-qQU_I5tMY0j-g1iwqTnENvv7uQ3dshMB9MnzIVi5KmZ4lQ5RpSOA-rLIFStj4KlCTWLfz2JuKj0mwI0qmscU6mMPNqStZlmwULhYjsJztXWppUrlaDBRUSjU1Z4xtj4EKcBZSC3t97D6hvQf9J_-ZJVfXz6a7yvcyq2PtCVWL9yYuZl38IGqFKYcUrJ1uGTDosuJxxKW90CYhpwHio62isNcYAQ&sig=AOD64_0xmQtEeVSyLmddWb_a3UG8kqaaDA&client=ca-pub-0447284344517370&rf=1&nb=8&adurl=https://www.brocard.ua/ua/promotion/tsini-dnya%3Fgad_source%3D5%26gad_campaignid%3D21970324680
+            - generic [ref=f2e19] [cursor=pointer]: Купуйте зараз
+        - img [ref=f2e24] [cursor=pointer]
+        - button [ref=f2e26] [cursor=pointer]:
+          - img [ref=f2e27] [cursor=pointer]
+        - iframe
+```

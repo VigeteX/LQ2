@@ -1,0 +1,406 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - list:
+          - listitem [ref=e7]:
+            - link "Sign in" [ref=e8]:
+              - /url: /login
+          - listitem [ref=e9]:
+            - link "Register" [ref=e10]:
+              - /url: /account/register
+      - list:
+        - listitem [ref=e11]:
+          - link "Home" [ref=e12]:
+            - /url: /
+        - listitem [ref=e13]:
+          - link "Projects" [ref=e14]:
+            - /url: /projects
+        - listitem [ref=e15]:
+          - link "Help" [ref=e16]:
+            - /url: https://www.redmine.org/guide
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - generic [ref=e20]:
+            - link "Search" [ref=e21]:
+              - /url: /projects/redmine/search?scope=subprojects
+            - text: ":"
+          - textbox "Search:" [active] [ref=e22]: Redmine
+        - generic [ref=e24] [cursor=pointer]: Redmine
+      - heading "Redmine" [level=1] [ref=e25]:
+        - generic [ref=e26]: Redmine
+      - list [ref=e28]:
+        - listitem [ref=e29]:
+          - link "Overview" [ref=e30]:
+            - /url: /projects/redmine
+        - listitem [ref=e31]:
+          - link "Download" [ref=e32]:
+            - /url: /projects/redmine/wiki/Download
+        - listitem [ref=e33]:
+          - link "Activity" [ref=e34]:
+            - /url: /projects/redmine/activity
+        - listitem [ref=e35]:
+          - link "Roadmap" [ref=e36]:
+            - /url: /projects/redmine/roadmap
+        - listitem [ref=e37]:
+          - link "Issues" [ref=e38]:
+            - /url: /projects/redmine/issues
+        - listitem [ref=e39]:
+          - link "News" [ref=e40]:
+            - /url: /projects/redmine/news
+        - listitem [ref=e41]:
+          - link "Wiki" [ref=e42]:
+            - /url: /projects/redmine/wiki
+        - listitem [ref=e43]:
+          - link "Forums" [ref=e44]:
+            - /url: /projects/redmine/boards
+        - listitem [ref=e45]:
+          - link "Repository" [ref=e46]:
+            - /url: /projects/redmine/repository
+    - generic [ref=e47]:
+      - generic [ref=e48]:
+        - generic [ref=e49]:
+          - heading "Latest releases" [level=3] [ref=e50]
+          - paragraph [ref=e51]:
+            - link "5.0.14 (2025-09-21)" [ref=e52]:
+              - /url: /projects/redmine/wiki/Download
+            - link "5.1.10 (2025-09-21)" [ref=e53]:
+              - /url: /projects/redmine/wiki/Download
+            - link "6.0.7 (2025-09-21)" [ref=e54]:
+              - /url: /projects/redmine/wiki/Download
+            - link "6.1.0 (2025-09-21)" [ref=e55]:
+              - /url: /projects/redmine/wiki/Download
+          - heading "Resources" [level=3] [ref=e56]
+          - paragraph [ref=e57]:
+            - link "User's Guide" [ref=e58]:
+              - /url: /projects/redmine/wiki/Guide
+            - link "Developer's Guide" [ref=e59]:
+              - /url: /projects/redmine/wiki/Developer_Guide
+            - link "Changelog" [ref=e60]:
+              - /url: /projects/redmine/wiki/Changelog
+            - text: ","
+            - link "Security" [ref=e61]:
+              - /url: /projects/redmine/wiki/Security_Advisories
+            - link "FAQ" [ref=e62]:
+              - /url: /projects/redmine/wiki/FAQ
+            - text: ","
+            - link "HowTo's" [ref=e63]:
+              - /url: /projects/redmine/wiki/HowTos
+            - link "Plugins" [ref=e64]:
+              - /url: /plugins
+            - text: ","
+            - link "Themes" [ref=e65]:
+              - /url: /projects/redmine/wiki/Theme_List
+            - link "Privacy Policy" [ref=e66]:
+              - /url: /projects/redmine/wiki/PrivacyPolicy
+        - heading "Wiki" [level=3] [ref=e67]
+        - list [ref=e68]:
+          - listitem [ref=e69]:
+            - link "Start page" [ref=e70]:
+              - /url: /
+          - listitem [ref=e71]:
+            - link "Index by title" [ref=e72]:
+              - /url: /projects/redmine/wiki/index
+          - listitem [ref=e73]:
+            - link "Index by date" [ref=e74]:
+              - /url: /projects/redmine/wiki/date_index
+        - insertion [ref=e75]:
+          - iframe [ref=e77]:
+            - generic [active] [ref=f1e1]:
+              - link "Advertisement" [ref=f1e6] [cursor=pointer]:
+                - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CiBmlOyjlaNqwHMqJwuIP-enpkAGK7fevggHc3-Ww4hSsAhABIMGX9AdgpcaihuQioAGPtKeKK8gBCakCvkl9U27-WT6oAwHIA0iqBNsBT9BOYrZavYI--7X3HY65Ti4RSkxZ0RvfyWttCyTH8hOo_2hJv6Zjo7Iul5k9NKp21iRuyBPFuMNMupgKR-D6lt1vDP8z9l7Dwtg6JU1_L6PJkVSRnyswn6E80sToeHGtjtbes-aE_H69xLhpUWwv__SeUaDFizjKMqEsf3YPe8OkVsbDqZ3xasHxhjdjATNecvW2VkhNd9UIExmeb4ACLEBn1ZjbUBrAU34BRca0mBAk4OMQas0_nxCc8NBM0pCqyDkqICe9G4i4BM8EBe0EJ_TQFbH54gssbdJewATjqu7GtwWIBYKw1PBVoAYugAeP7PfpBagH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIIKQiAYRABGJ8BMgKKAjoNgECAwICAgICogAKoA0i9_cE6WP_QlMmqkpADsQnLuvBb-FPlloAKAZgLAcgLAYAMAaIMA5ABAaoNAlVByA0B6g0TCJXbqcmqkpADFcqEUAYd-XQaEvANA4gOBdgTA9AVAZgWAcoWAgoA-BYBgBcBshcCGAG6FwI4AbIYCRICyFEYLiIBANAYAcIZAggB&ae=2&gclid=EAIaIQobChMImrqVyaqSkAMVyoRQBh35dBoSEAEYASAAEgJ__vD_BwE&num=1&cid=CAQSsgEAwksa0Y9VTmhPVaPa9v0qPIOYA3LkrI5XszHeqRoYB_WkQoBEjbcNjw5MPtOh6MMWBpaQpiM8jtpFMEjZOpsd-R_LCf5gdP-DzGKFQmLDXa_1_Zlp2MqBrt3_SvC5toSD2zC42nUtFIkMGdRmqIh8pi5qYR55A_F3RjoLg7Ui4CGN7uG35UNyQtgTb2cjaYVrYPtDCekq8To-yNvON_q71UyX5UZ6Y9ney8RuB2uSSOc4GAE&sig=AOD64_0qPu1xznq7MbxnrI1qK0wLK2TtXA&client=ca-pub-0447284344517370&rf=1&nb=25&adurl=https://www.bilo.ua/%3Fgad_source%3D5%26gad_campaignid%3D23053277186
+                - iframe [ref=f1e9] [cursor=pointer]:
+                  
+              - img [ref=f1e13] [cursor=pointer]
+              - button [ref=f1e15] [cursor=pointer]:
+                - img [ref=f1e16] [cursor=pointer]
+              - iframe
+      - generic [ref=e78]:
+        - generic [ref=e83]:
+          - heading "Redmine" [level=1] [ref=e84]
+          - list [ref=e85]:
+            - listitem [ref=e86]:
+              - strong [ref=e87]: Table of contents
+            - listitem [ref=e88]:
+              - link "Redmine" [ref=e89]:
+                - /url: "#Redmine"
+              - list [ref=e90]:
+                - listitem [ref=e91]:
+                  - link "Features" [ref=e92]:
+                    - /url: "#Features"
+                - listitem [ref=e93]:
+                  - link "Documentation" [ref=e94]:
+                    - /url: "#Documentation"
+                - listitem [ref=e95]:
+                  - link "Online demo" [ref=e96]:
+                    - /url: "#Online-demo"
+                - listitem [ref=e97]:
+                  - link "Support & getting help" [ref=e98]:
+                    - /url: "#Support-amp-getting-help"
+                - listitem [ref=e99]:
+                  - link "Contributing and helping out" [ref=e100]:
+                    - /url: "#Contributing-and-helping-out"
+                - listitem [ref=e101]:
+                  - link "Who uses Redmine?" [ref=e102]:
+                    - /url: "#Who-uses-Redmine"
+                - listitem [ref=e103]:
+                  - link "Redmine books" [ref=e104]:
+                    - /url: "#Redmine-books"
+          - paragraph [ref=e105]: Redmine is a flexible project management web application. Written using the Ruby on Rails framework, it is cross-platform and cross-database.
+          - paragraph [ref=e106]:
+            - text: Redmine is open source and released under the terms of the
+            - link "GNU General Public License v2" [ref=e107]:
+              - /url: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+            - text: (GPL).
+          - heading "Features" [level=2] [ref=e108]
+          - paragraph [ref=e109]: "Some of the main features of Redmine are:"
+          - list [ref=e110]:
+            - listitem [ref=e111]:
+              - link "Multiple projects support" [ref=e112]:
+                - /url: /projects/redmine/wiki/RedmineProjects
+            - listitem [ref=e113]:
+              - text: Flexible
+              - link "role based access control" [ref=e114]:
+                - /url: /projects/redmine/wiki/RedmineRoles
+            - listitem [ref=e115]:
+              - text: Flexible
+              - link "issue tracking system" [ref=e116]:
+                - /url: /projects/redmine/wiki/RedmineIssues
+            - listitem [ref=e117]:
+              - link "Gantt chart" [ref=e118]:
+                - /url: /projects/redmine/wiki/RedmineGantt
+              - text: and
+              - link "calendar" [ref=e119]:
+                - /url: /projects/redmine/wiki/RedmineCalendar
+            - listitem [ref=e120]:
+              - link "News" [ref=e121]:
+                - /url: /projects/redmine/wiki/RedmineNews
+              - text: ","
+              - link "documents" [ref=e122]:
+                - /url: /projects/redmine/wiki/RedmineDocuments
+              - text: "&"
+              - link "files" [ref=e123]:
+                - /url: /projects/redmine/wiki/RedmineFiles
+              - text: management
+            - listitem [ref=e124]: Feeds & email notifications
+            - listitem [ref=e125]:
+              - text: Per project
+              - link "wiki" [ref=e126]:
+                - /url: /projects/redmine/wiki/RedmineWikis
+            - listitem [ref=e127]:
+              - text: Per project
+              - link "forums" [ref=e128]:
+                - /url: /projects/redmine/wiki/RedmineForums
+            - listitem [ref=e129]:
+              - link "Time tracking" [ref=e130]:
+                - /url: /projects/redmine/wiki/RedmineTimeTracking
+            - listitem [ref=e131]:
+              - link "Custom fields" [ref=e132]:
+                - /url: /projects/redmine/wiki/RedmineCustomFields
+              - text: for issues, time-entries, projects and users
+            - listitem [ref=e133]:
+              - link "SCM integration" [ref=e134]:
+                - /url: /projects/redmine/wiki/RedmineRepository
+              - text: (SVN, CVS, Git, Mercurial and Bazaar)
+            - listitem [ref=e135]:
+              - link "Issue creation via email" [ref=e136]:
+                - /url: /projects/redmine/wiki/RedmineReceivingEmails
+            - listitem [ref=e137]:
+              - text: Multiple
+              - link "LDAP authentication" [ref=e138]:
+                - /url: /projects/redmine/wiki/RedmineLDAP
+              - text: support
+            - listitem [ref=e139]:
+              - link "User self-registration" [ref=e140]:
+                - /url: /projects/redmine/wiki/RedmineRegister
+              - text: support
+            - listitem [ref=e141]: Multilanguage support
+            - listitem [ref=e142]:
+              - link "Multiple databases" [ref=e143]:
+                - /url: /projects/redmine/wiki/RedmineInstall#Supported-database-back-ends
+              - text: support
+          - paragraph [ref=e144]:
+            - text: Read more about
+            - link "Redmine features" [ref=e145]:
+              - /url: /projects/redmine/wiki/Features
+            - text: .
+          - heading "Documentation" [level=2] [ref=e146]
+          - paragraph [ref=e147]:
+            - text: You can read the
+            - strong [ref=e148]:
+              - link "Redmine guide" [ref=e149]:
+                - /url: /projects/redmine/wiki/Guide
+            - text: .
+          - list [ref=e150]:
+            - listitem [ref=e151]:
+              - link "User's Guide" [ref=e152]:
+                - /url: /projects/redmine/wiki/Guide
+            - listitem [ref=e153]:
+              - link "Developer's Guide" [ref=e154]:
+                - /url: /projects/redmine/wiki/Developer_Guide
+            - listitem [ref=e155]:
+              - link "DeepWiki Documentation" [ref=e156]:
+                - /url: https://deepwiki.com/redmine/redmine
+              - text: (Auto-generated by DeepWiki)
+          - text: "Other resources:"
+          - list [ref=e157]:
+            - listitem [ref=e158]:
+              - link "Changelog" [ref=e159]:
+                - /url: /projects/redmine/wiki/Changelog
+            - listitem [ref=e160]:
+              - link "Security Advisories" [ref=e161]:
+                - /url: /projects/redmine/wiki/Security_Advisories
+            - listitem [ref=e162]:
+              - link "Frequently Asked Questions" [ref=e163]:
+                - /url: /projects/redmine/wiki/FAQ
+            - listitem [ref=e164]:
+              - link "HowTos" [ref=e165]:
+                - /url: /projects/redmine/wiki/HowTos
+            - listitem [ref=e166]:
+              - link "Plugins" [ref=e167]:
+                - /url: /projects/redmine/wiki/Plugins
+            - listitem [ref=e168]:
+              - link "Themes" [ref=e169]:
+                - /url: /projects/redmine/wiki/Themes
+            - listitem [ref=e170]:
+              - link "Logo and Icon" [ref=e171]:
+                - /url: /projects/redmine/wiki/Logo
+            - listitem [ref=e172]:
+              - link "Third Party Tools" [ref=e173]:
+                - /url: /projects/redmine/wiki/ThirdPartyTools
+          - heading "Online demo" [level=2] [ref=e174]
+          - paragraph [ref=e175]:
+            - text: A shared online
+            - emphasis [ref=e176]: unofficial
+            - text: demo site can be found at
+            - link "https://demo.redminecloud.net/" [ref=e177]:
+              - /url: https://demo.redminecloud.net/
+            - text: . It has been set up to give registered users the ability to create their own projects. This means that once you register, you can create your own project on there and try out the project administration features. Please note that this demo site is an unofficial, third-party site and has no connection to Redmine.org.
+          - heading "Support & getting help" [level=2] [ref=e178]
+          - paragraph [ref=e179]:
+            - text: For getting help or discussing Redmine, you can browse the
+            - strong [ref=e180]:
+              - link "Redmine forums" [ref=e181]:
+                - /url: http://www.redmine.org/projects/redmine/boards
+            - text: hosted right here in Redmine.
+          - paragraph [ref=e182]:
+            - text: We also have a
+            - strong [ref=e183]:
+              - link "chatroom" [ref=e184]:
+                - /url: /projects/redmine/wiki/IRC
+            - text: "-"
+            - 'link "join #redmine" [ref=e185]':
+              - /url: https://web.libera.chat/?channel=#redmine
+            - text: on the
+            - link "libera.chat" [ref=e186]:
+              - /url: https://libera.chat
+            - text: IRC network.
+          - paragraph [ref=e187]:
+            - text: There's also an unofficial workspace on
+            - strong [ref=e188]:
+              - link "Slack" [ref=e189]:
+                - /url: https://join.slack.com/t/redmineorg/shared_invite/zt-ew74bkww-9~Cs~L2oSioRXDljumZ_zg
+            - text: where you can ask questions and participate in discussions with other Redmine users.
+          - paragraph [ref=e190]:
+            - text: Before submitting a bug report, a patch or a feature request here, please read the
+            - link "Submission guidelines" [ref=e191]:
+              - /url: /projects/redmine/wiki/Submissions
+            - text: .
+          - heading "Contributing and helping out" [level=2] [ref=e192]
+          - paragraph [ref=e193]:
+            - text: Redmine is built and maintained by community volunteers. If you enjoy using it and would like to give back to the community, the
+            - link "Contribute" [ref=e194]:
+              - /url: /projects/redmine/wiki/Contribute
+            - text: page has several ideas. Software development experience is not required. Check out the
+            - link "Teams" [ref=e195]:
+              - /url: /projects/redmine/wiki/Teams
+            - text: Page if you are interested in a specific area to contribute regularly.
+          - paragraph [ref=e196]:
+            - text: You can also make a donation and get listed on the
+            - link "Redmine Donors page" [ref=e197]:
+              - /url: /projects/redmine/wiki/Donors
+            - text: .
+          - heading "Who uses Redmine?" [level=2] [ref=e198]
+          - paragraph [ref=e199]:
+            - link "This page lists" [ref=e200]:
+              - /url: /projects/redmine/wiki/WeAreUsingRedmine
+            - text: some companies and projects using Redmine.
+          - heading "Redmine books" [level=2] [ref=e201]
+          - table [ref=e202]:
+            - rowgroup [ref=e203]:
+              - row [ref=e204]:
+                - cell [ref=e205]:
+                  - link [ref=e206]:
+                    - /url: https://www.packtpub.com/product/mastering-redmine-second-edition/9781785881305
+                - cell [ref=e207]:
+                  - link [ref=e208]:
+                    - /url: http://www.packtpub.com/redmine-plugin-extension-and-development/book
+                - cell [ref=e209]:
+                  - link [ref=e210]:
+                    - /url: https://www.packtpub.com/big-data-and-business-intelligence/redmine-cookbook
+              - 'row "Mastering Redmine 2nd Edition is a comprehensive guide with tips, tricks and best practices for using Redmine. You can buy it online. Redmine Plugin Extension and Development provides an overview of the tools available to developers who want to extend Redmine to work their way. You can buy it online. Redmine Cookbook: over 80 hands-on recipes to improve your skills in project management, team management, process improvement, and Redmine administration. You can buy it online." [ref=e211]':
+                - cell "Mastering Redmine 2nd Edition is a comprehensive guide with tips, tricks and best practices for using Redmine. You can buy it online." [ref=e212]:
+                  - emphasis [ref=e213]: Mastering Redmine 2nd Edition
+                  - text: is a comprehensive guide with tips, tricks and best practices for using Redmine.
+                  - text: You can
+                  - link "buy it online" [ref=e214]:
+                    - /url: https://www.packtpub.com/product/mastering-redmine-second-edition/9781785881305
+                  - text: .
+                - cell "Redmine Plugin Extension and Development provides an overview of the tools available to developers who want to extend Redmine to work their way. You can buy it online." [ref=e215]:
+                  - emphasis [ref=e216]: Redmine Plugin Extension and Development
+                  - text: provides an overview of the tools available to developers who want to extend Redmine to work their way.
+                  - text: You can
+                  - link "buy it online" [ref=e217]:
+                    - /url: https://www.packtpub.com/product/redmine-plugin-extension-and-development/9781783288748
+                  - text: .
+                - 'cell "Redmine Cookbook: over 80 hands-on recipes to improve your skills in project management, team management, process improvement, and Redmine administration. You can buy it online." [ref=e218]':
+                  - emphasis [ref=e219]: Redmine Cookbook
+                  - text: ": over 80 hands-on recipes to improve your skills in project management, team management, process improvement, and Redmine administration."
+                  - text: You can
+                  - link "buy it online" [ref=e220]:
+                    - /url: https://www.packtpub.com/product/redmine-cookbook/9781785286131
+                  - text: .
+        - group "Files (0)" [ref=e221]:
+          - generic [ref=e222] [cursor=pointer]: Files (0)
+        - paragraph [ref=e223]:
+          - text: Updated by
+          - link "Go MAEDA" [ref=e224]:
+            - /url: /users/332
+          - link "about 1 month" [ref=e225]:
+            - /url: /projects/redmine/activity?from=2025-08-29
+          - text: ago ·
+          - link "87 revisions" [ref=e226]:
+            - /url: /projects/redmine/wiki/Overview/history
+          - generic [ref=e227]: locked
+    - generic [ref=e228]:
+      - text: Powered by
+      - link "Redmine" [ref=e229]:
+        - /url: https://www.redmine.org/
+      - text: © 2006-2023 Jean-Philippe Lang
+  - log [ref=e230]
+  - log [ref=e231]
+  - insertion [ref=e232]:
+    - iframe [ref=e235]:
+      - generic [active] [ref=f3e1]:
+        - generic [ref=f3e6]:
+          - generic [ref=f3e7]:
+            - link "Купуй цього вівторка" [ref=f3e10] [cursor=pointer]:
+              - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CYSQEOyjlaLqjHMKswuIPlImp0AvouMutggGh8ZCnhxXb2R4QASDBl_QHYKXGoobkIqABkvDSiwPIAQGpAr5JfVNu_lk-qAMByAPLBKoE3AFP0AQ5P6ERvlCwkiwyYUB1MUGTM3gJo2PgDKC3o5OEXoi8i1P2YytIqTLClAHCdG-08_uaE029Jo8CyVcL3D93KfgILsLONj5MwVaM_I7BopVSLBy0PyjR0ywTZPKBlcY0YbnlaYilZgZrPmyunlerF6kToi0zGI9I2U2ptSerxgDreUgrH9yExr_p7BcB1dKz8qxuUuF2_UDz8YaWYFfQx39e6eFF-JbOWy57tVQw81dUqavS9HTZqMFxJn9UV88gBgqrYEONPMdyxitpYUpMUKCY5UQ-uAF9I4dWwASU3NHUngWIBciZouxRgAfZsJeIBagHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHAdIIKQiAYRABGJ8BMgKKAjoNgECAwICAgICogAKoA0i9_cE6WMbKlMmqkpADsQnQxwW-_B-pHoAKAZgLAcgLAaoNAlVByA0B6g0TCOzTpcmqkpADFUKWUAYdlEQKuvANA4gOCdgTA9AVAcoWAgoA-BYBgBcBshcCGAG6FwI4AbIYCRICuU8YASIBANAYAegYAcIZAggB&ae=2&gclid=EAIaIQobChMI-qyVyaqSkAMVQpZQBh2URAq6EAEYASAAEgI5QvD_BwE&num=1&cid=CAQSsgEAwksa0cBY7x-gr_PF7b2DD-dKTN7ID0TSiSv9qi9GwC7uluYxJj6sZvUXKuNjdE77M7Z5TBcxkQbAi51Xxjyuw3-Q7mUGIetgCmhYxRHQtVBTp0bU5LsDFu8-Gjzp3RCz-gVM0J-HSHRuES_7oyci6UM-7HYxmaDgfzIAYkFCAsCbZ9OAnzGSYEY0Hj7-yPi1P9Kz1nQgHC4kvTk4wGmhwe9WpztGxVwj-zoJpqwHmuv4GAE&sig=AOD64_0a8GeAyBj99ghOkrwLqXICZAjICQ&client=ca-pub-0447284344517370&rf=1&nb=0&adurl=https://www.brocard.ua/ua/promotion/tsini-dnya%3Fgad_source%3D5%26gad_campaignid%3D21970324680
+            - 'link "Хітовий вівторок: замов омріяні б’юті-товари за ціною дня на сайті та у застосунку BROCARD BROCARD" [ref=f3e12] [cursor=pointer]':
+              - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CYSQEOyjlaLqjHMKswuIPlImp0AvouMutggGh8ZCnhxXb2R4QASDBl_QHYKXGoobkIqABkvDSiwPIAQGpAr5JfVNu_lk-qAMByAPLBKoE3AFP0AQ5P6ERvlCwkiwyYUB1MUGTM3gJo2PgDKC3o5OEXoi8i1P2YytIqTLClAHCdG-08_uaE029Jo8CyVcL3D93KfgILsLONj5MwVaM_I7BopVSLBy0PyjR0ywTZPKBlcY0YbnlaYilZgZrPmyunlerF6kToi0zGI9I2U2ptSerxgDreUgrH9yExr_p7BcB1dKz8qxuUuF2_UDz8YaWYFfQx39e6eFF-JbOWy57tVQw81dUqavS9HTZqMFxJn9UV88gBgqrYEONPMdyxitpYUpMUKCY5UQ-uAF9I4dWwASU3NHUngWIBciZouxRgAfZsJeIBagHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHAdIIKQiAYRABGJ8BMgKKAjoNgECAwICAgICogAKoA0i9_cE6WMbKlMmqkpADsQnQxwW-_B-pHoAKAZgLAcgLAaoNAlVByA0B6g0TCOzTpcmqkpADFUKWUAYdlEQKuvANA4gOCdgTA9AVAcoWAgoA-BYBgBcBshcCGAG6FwI4AbIYCRICuU8YASIBANAYAegYAcIZAggB&ae=2&gclid=EAIaIQobChMI-qyVyaqSkAMVQpZQBh2URAq6EAEYASAAEgI5QvD_BwE&num=1&cid=CAQSsgEAwksa0cBY7x-gr_PF7b2DD-dKTN7ID0TSiSv9qi9GwC7uluYxJj6sZvUXKuNjdE77M7Z5TBcxkQbAi51Xxjyuw3-Q7mUGIetgCmhYxRHQtVBTp0bU5LsDFu8-Gjzp3RCz-gVM0J-HSHRuES_7oyci6UM-7HYxmaDgfzIAYkFCAsCbZ9OAnzGSYEY0Hj7-yPi1P9Kz1nQgHC4kvTk4wGmhwe9WpztGxVwj-zoJpqwHmuv4GAE&sig=AOD64_0a8GeAyBj99ghOkrwLqXICZAjICQ&client=ca-pub-0447284344517370&rf=1&nb=7&adurl=https://www.brocard.ua/ua/promotion/tsini-dnya%3Fgad_source%3D5%26gad_campaignid%3D21970324680
+              - text: "Хітовий вівторок: замов омріяні б’юті-товари за ціною дня на сайті та у застосунку"
+              - text: BROCARD BROCARD
+          - link "Купуйте зараз" [ref=f3e15] [cursor=pointer]:
+            - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CYSQEOyjlaLqjHMKswuIPlImp0AvouMutggGh8ZCnhxXb2R4QASDBl_QHYKXGoobkIqABkvDSiwPIAQGpAr5JfVNu_lk-qAMByAPLBKoE3AFP0AQ5P6ERvlCwkiwyYUB1MUGTM3gJo2PgDKC3o5OEXoi8i1P2YytIqTLClAHCdG-08_uaE029Jo8CyVcL3D93KfgILsLONj5MwVaM_I7BopVSLBy0PyjR0ywTZPKBlcY0YbnlaYilZgZrPmyunlerF6kToi0zGI9I2U2ptSerxgDreUgrH9yExr_p7BcB1dKz8qxuUuF2_UDz8YaWYFfQx39e6eFF-JbOWy57tVQw81dUqavS9HTZqMFxJn9UV88gBgqrYEONPMdyxitpYUpMUKCY5UQ-uAF9I4dWwASU3NHUngWIBciZouxRgAfZsJeIBagHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHAdIIKQiAYRABGJ8BMgKKAjoNgECAwICAgICogAKoA0i9_cE6WMbKlMmqkpADsQnQxwW-_B-pHoAKAZgLAcgLAaoNAlVByA0B6g0TCOzTpcmqkpADFUKWUAYdlEQKuvANA4gOCdgTA9AVAcoWAgoA-BYBgBcBshcCGAG6FwI4AbIYCRICuU8YASIBANAYAegYAcIZAggB&ae=2&gclid=EAIaIQobChMI-qyVyaqSkAMVQpZQBh2URAq6EAEYASAAEgI5QvD_BwE&num=1&cid=CAQSsgEAwksa0cBY7x-gr_PF7b2DD-dKTN7ID0TSiSv9qi9GwC7uluYxJj6sZvUXKuNjdE77M7Z5TBcxkQbAi51Xxjyuw3-Q7mUGIetgCmhYxRHQtVBTp0bU5LsDFu8-Gjzp3RCz-gVM0J-HSHRuES_7oyci6UM-7HYxmaDgfzIAYkFCAsCbZ9OAnzGSYEY0Hj7-yPi1P9Kz1nQgHC4kvTk4wGmhwe9WpztGxVwj-zoJpqwHmuv4GAE&sig=AOD64_0a8GeAyBj99ghOkrwLqXICZAjICQ&client=ca-pub-0447284344517370&rf=1&nb=8&adurl=https://www.brocard.ua/ua/promotion/tsini-dnya%3Fgad_source%3D5%26gad_campaignid%3D21970324680
+            - generic [ref=f3e19] [cursor=pointer]:
+              - generic [ref=f3e21] [cursor=pointer]: Купуйте зараз
+              - img [ref=f3e22] [cursor=pointer]
+        - img [ref=f3e27] [cursor=pointer]
+        - button [ref=f3e29] [cursor=pointer]:
+          - img [ref=f3e30] [cursor=pointer]
+        - iframe
+```
