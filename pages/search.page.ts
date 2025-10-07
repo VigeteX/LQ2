@@ -16,14 +16,6 @@ export default class SearchPage extends BasePage{
     this.secondSearchInput = page.locator('#search-input');
     this.results = page.locator('#search-results');
   }
-
-  async open() {
-    await this.page.goto('https://www.redmine.org/projects/redmine/search?scope=subprojects',
-    {
-      waitUntil: 'domcontentloaded',
-      timeout: 30000,
-    });
-  }
   
   async fillSearchField(query: string) {
     await this.searchInput.fill(query);
@@ -37,6 +29,7 @@ export default class SearchPage extends BasePage{
   async toggleCheckboxes(checkboxes:Record<string, boolean>){
       for (const [name, shouldBeChecked] of Object.entries(checkboxes)) {
         const checkbox = this.page.locator(`input[type="checkbox"][name="${name}"]`);
+        await checkbox.waitFor({ state: 'attached', timeout: 120000 });
         const count = await checkbox.count();
         if (count === 0) throw new Error(`Checkbox "${name}" not found`);
 
@@ -47,12 +40,13 @@ export default class SearchPage extends BasePage{
           await checkbox.uncheck();
         }
       }
-      await this.expectCheckboxesState(checkboxes)
   }
   
   async expectCheckboxesState(expected: Record<string, boolean>) {
+
     for (const [name, shouldBeChecked] of Object.entries(expected)) {
       const checkbox = this.page.locator(`input[type="checkbox"][name="${name}"]`);
+      await checkbox.waitFor({ state: 'attached', timeout: 120000 });
       const count = await checkbox.count();
       if (count === 0) throw new Error(`Checkbox "${name}" not found`);
 

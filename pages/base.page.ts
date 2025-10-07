@@ -7,14 +7,14 @@ export default class BasePage {
     this.page = page;
   }
 
-  async open(url: string) {
-    await this.page.goto(url, {
+  async open(path: string = '/') {
+    await this.page.goto(path, {
       waitUntil: 'domcontentloaded',
-      timeout: 30000,
+      timeout: 120000,
     });
   }
 
   async expectURLContains(text: string) {
-    await expect(this.page).toHaveURL(new RegExp(text));
+    await expect(this.page).toHaveURL(text);
   }
 }

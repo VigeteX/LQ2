@@ -11,14 +11,6 @@ export class MainPage extends BasePage{
     this.searchInput = page.locator('#q');
   }
 
-  async open() {
-    await this.page.goto('https://www.redmine.org/',
-    {
-      waitUntil: 'domcontentloaded',
-      timeout: 30000,
-    });
-  }
-
   async search(text: string) {
     await this.searchInput.fill(text);
     await this.searchInput.press('Enter');

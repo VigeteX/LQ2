@@ -2,10 +2,12 @@
 # Playwright
 node_modules/
 /test-results/
+/tests-examples/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+/allure-results/
 
 # === Logs ===
 npm-debug.log*
