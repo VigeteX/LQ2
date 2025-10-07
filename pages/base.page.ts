@@ -15,6 +15,6 @@ export default class BasePage {
   }
 
   async expectURLContains(text: string) {
-    await expect(this.page).toHaveURL(text);
+    await expect(this.page).toHaveURL(new RegExp(text));
   }
 }
